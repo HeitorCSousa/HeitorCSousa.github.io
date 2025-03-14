@@ -1,11 +1,35 @@
 ---
-title: "HeitorCSousa.github.io"
+title: "Dr. Heitor Campos de Sousa"
+subtitle: "Post-Doc Researcher"
+about: 
+  template: jolla
+  image: profile.jpeg
+  links: 
+    - icon: r-square
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Heitor-Campos-De-Sousa
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/heitor-campos-de-sousa/
+    - icon: twitter
+      text: Bluesky
+      href: https://bsky.app/profile/bioheitorsousa.bsky.social
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/bioheitorsousa/
+    - icon: threads
+      text: Threads
+      href: https://www.threads.net/@bioheitorsousa
+    - icon: envelope-at
+      text: e-mail
+      href: mailto:heitorsousa.bio@gmail.com
+  id: ppc
 ---
 
-This is a Quarto website.
+::: {#ppc}
+Environmental Science professional with extensive experience in teaching, research, and consulting.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+\![Heitor investigates how lizard populations respond to environmental changes, such as climate and fire regimes\] (profile_lizard.jpeg)
+:::
 
-```{r}
-1 + 1
-```
+Heitor C. Sousa is currently a post-doc researcher at the [Herpetological Collection](https://chunb.org) from the [University of Brasília](https://www.unb.br). Experient in biodiversity inventories, ecological and ecophysiological studies of amphibians and reptiles. Interested in ecology and evolution of animals, especially from Neotropical ecosystems, such as the dry seasonal forests (*Caatinga*), the Brazilian Cerrado savannas, and the Amazon rainforests. His research focuses on fire ecology, biodemography (population ecology), and global climate change. Heitor is highly quantitative-oriented, using statistical models to address applied problems related to sustainability and biological conservation.
