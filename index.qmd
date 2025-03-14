@@ -29,7 +29,7 @@ about:
 ::: {#ppc}
 Environmental Science professional with extensive experience in teaching, research, and consulting.
 
-\![Heitor investigates how lizard populations respond to environmental changes, such as climate and fire regimes\] (profile_lizard.jpeg)
+\![Heitor investigates how lizard populations respond to environmental changes, such as climate and fire regimes\](profile_lizard.jpeg)
 :::
 
 Heitor C. Sousa is currently a post-doc researcher at the [Herpetological Collection](https://chunb.org) from the [University of Brasília](https://www.unb.br). Experient in biodiversity inventories, ecological and ecophysiological studies of amphibians and reptiles. Interested in ecology and evolution of animals, especially from Neotropical ecosystems, such as the dry seasonal forests (*Caatinga*), the Brazilian Cerrado savannas, and the Amazon rainforests. His research focuses on fire ecology, biodemography (population ecology), and global climate change. Heitor is highly quantitative-oriented, using statistical models to address applied problems related to sustainability and biological conservation.
