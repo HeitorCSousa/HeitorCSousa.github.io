@@ -4,6 +4,8 @@ subtitle: "Post-Doc Researcher"
 about: 
   template: jolla
   image: profile.jpeg
+  image-shape: rounded
+  image-width: 15em
   links: 
     - icon: r-square
       text: ResearchGate
@@ -23,13 +25,20 @@ about:
     - icon: envelope-at
       text: e-mail
       href: mailto:heitorsousa.bio@gmail.com
-  id: ppc
+  id: ppc1, ppc2
 ---
 
-::: {#ppc}
-Environmental Science professional with extensive experience in teaching, research, and consulting.
-
-\![Heitor investigates how lizard populations respond to environmental changes, such as climate and fire regimes\](profile_lizard.jpeg)
+:::{#ppc1}
+Heitor C. Sousa is currently a post-doc researcher at the [Herpetological Collection](https://chunb.org) from the [University of Brasília](https://www.unb.br). Experient in biodiversity inventories, ecological and ecophysiological studies of amphibians and reptiles. Interested in ecology and evolution of animals, especially from Neotropical ecosystems, such as the dry seasonal forests (*Caatinga*), the Brazilian Cerrado savannas, and the Amazon rainforests. His research focuses on fire ecology, biodemography (population ecology), and global climate change. Heitor is highly quantitative-oriented, using statistical models to address applied problems related to sustainability and biological conservation.
 :::
 
-Heitor C. Sousa is currently a post-doc researcher at the [Herpetological Collection](https://chunb.org) from the [University of Brasília](https://www.unb.br). Experient in biodiversity inventories, ecological and ecophysiological studies of amphibians and reptiles. Interested in ecology and evolution of animals, especially from Neotropical ecosystems, such as the dry seasonal forests (*Caatinga*), the Brazilian Cerrado savannas, and the Amazon rainforests. His research focuses on fire ecology, biodemography (population ecology), and global climate change. Heitor is highly quantitative-oriented, using statistical models to address applied problems related to sustainability and biological conservation.
+:::{#ppc2}
+
+Environmental Science professional with extensive experience in teaching, research, and consulting.
+
+![Heitor investigates how lizard populations respond to environmental changes, such as climate and fire regimes](profile_lizard.jpeg)
+:::
+
+
+
+
