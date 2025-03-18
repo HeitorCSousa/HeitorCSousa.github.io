@@ -1,0 +1,8 @@
+---
+title: "Biodemography"
+format: html
+website:
+  template: jolla
+---
+
+Here are some of my research interests in biodemography, also known as population ecology.

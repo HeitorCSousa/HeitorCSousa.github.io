@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Dr. Heitor Campos de Sousa",
     "section": "",
-    "text": "Heitor C. Sousa is currently a post-doc researcher at the Herpetological Collection from the University of Brasília. Experient in biodiversity inventories, ecological and ecophysiological studies of amphibians and reptiles. Interested in ecology and evolution of animals, especially from Neotropical ecosystems, such as the dry seasonal forests (Caatinga), the Brazilian Cerrado savannas, and the Amazon rainforests. His research focuses on fire ecology, biodemography (population ecology), and global climate change. Heitor is highly quantitative-oriented, using statistical models to address applied problems related to sustainability and biological conservation.\n\n\nEnvironmental Science professional with extensive experience in teaching, research, and consulting.\n\n\n\nHeitor investigates how lizard populations respond to environmental changes, such as climate and fire regimes"
+    "text": "Environmental Science professional with extensive experience in teaching, research, and consulting\n\n\nI’m Heitor C. Sousa. I am currently as a post-doc researcher at the Herpetological Collection from the University of Brasília. I have experience in biodiversity inventories, ecological and ecophysiological studies of amphibians and reptiles. I’m generally interested in ecology and evolution of animals, especially from Neotropical ecosystems, such as the dry seasonal forests (Caatinga), the Brazilian Cerrado savannas, and the Amazon rainforests. My research particularly focuses on fire ecology, biodemography (population ecology), and global climate change. I’m a highly quantitative-oriented ecologist, using statistical models to address applied problems related to sustainability and biological conservation.\n\n\n\n\n\nHeitor investigates how lizard populations respond to environmental changes, such as climate and fire regimes\n\n\n\nsource(\"carousel.R\")\ncarousel(\"gallery-carousel\", 5000, \n         yaml.load_file(\"carousel.yml\"))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArticles and reports with Python and R\n\n\n\n\n\n\n\nCreate data-driven presentations\n\n\n\n\n\n\n\nEngage readers with interactivity\n\n\n\n\n\n\n\nPublish collections of articles as a website\n\n\n\n\n\n\n\nCreate multi-format books\n\n\n\n\n\nPrevoius\n\n\n\nNext\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,93 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "CV",
+    "section": "",
+    "text": "Here is a list of my publications.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "curriculum.html",
+    "href": "curriculum.html",
+    "title": "CV",
+    "section": "",
+    "text": "Here is my Curriculum Vitae.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Here are some forms to contact me.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "fire.html",
+    "href": "fire.html",
+    "title": "Fire Ecology",
+    "section": "",
+    "text": "Here are some of my research interests in fire ecology.\n\n\n\n Back to top",
+    "crumbs": [
+      "Fire Ecology"
+    ]
+  },
+  {
+    "objectID": "demography.html",
+    "href": "demography.html",
+    "title": "Biodemography",
+    "section": "",
+    "text": "Here are some of my research interests in biodemography, also known as population ecology.\n\n\n\n Back to top",
+    "crumbs": [
+      "Biodemography"
+    ]
+  },
+  {
+    "objectID": "community.html",
+    "href": "community.html",
+    "title": "Community ecology",
+    "section": "",
+    "text": "Here are some of my research interests in community ecology.\n\n\n\n Back to top",
+    "crumbs": [
+      "Community ecology"
+    ]
+  },
+  {
+    "objectID": "zoology.html",
+    "href": "zoology.html",
+    "title": "Zoology",
+    "section": "",
+    "text": "Here are some of my research interests in zoology.\n\n\n\n Back to top",
+    "crumbs": [
+      "Zoology"
+    ]
+  },
+  {
+    "objectID": "climchange.html",
+    "href": "climchange.html",
+    "title": "Climate change",
+    "section": "",
+    "text": "Here are some of my research interests in climate change.\n\n\n\n Back to top",
+    "crumbs": [
+      "Climate change"
+    ]
+  },
+  {
+    "objectID": "social.html",
+    "href": "social.html",
+    "title": "Social Conservation",
+    "section": "",
+    "text": "Here are some of my research interests in social conservation.\n\n\n\n Back to top",
+    "crumbs": [
+      "Social Conservation"
+    ]
   }
 ]

@@ -1,0 +1,8 @@
+---
+title: "CV"
+format: html
+website:
+  template: jolla
+---
+
+Here is a list of my publications.
