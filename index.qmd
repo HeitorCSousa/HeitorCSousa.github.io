@@ -37,10 +37,10 @@ I'm Heitor C. Sousa. I am currently as a post-doc researcher at the [Herpetologi
 
 ![Heitor investigates how lizard populations respond to environmental changes, such as climate and fire regimes](profile_lizard.jpeg)
 
-```{r}
+```{r, echo=FALSE}
 #| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
 #| warning: false
 source("carousel.R")
-carousel("gallery-carousel", 5000, 
+carousel("gallery-carousel", 6000, 
          yaml.load_file("carousel.yml"))
 ```
