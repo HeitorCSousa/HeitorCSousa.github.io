@@ -10,21 +10,27 @@ about:
     - icon: r-square
       text: ResearchGate
       href: https://www.researchgate.net/profile/Heitor-Campos-De-Sousa
+      target: _blank
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/heitor-campos-de-sousa/
+      target: _blank
     - icon: twitter
       text: Bluesky
       href: https://bsky.app/profile/bioheitorsousa.bsky.social
+      target: _blank
     - icon: instagram
       text: Instagram
       href: https://www.instagram.com/bioheitorsousa/
+      target: _blank
     - icon: threads
       text: Threads
       href: https://www.threads.net/@bioheitorsousa
+      target: _blank
     - icon: envelope-at
       text: e-mail
       href: mailto:heitorsousa.bio@gmail.com
+page-navigation: false
 ---
 
 #### Environmental Science professional with extensive experience in teaching, research, and consulting

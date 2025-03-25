@@ -11,23 +11,28 @@ website:
       - sidebar:research
       - href: publications.qmd
         text: "Publications"
+        target: _blank
       - href: curriculum.qmd
         text: "CV"
+        target: _blank
       - href: contact.qmd
-        text: "Contact"      
+        text: "Contact"
+        target: _blank
+
   sidebar:
     - id: research
       title: "Research"
       style: "docked"
       collapse-level: 2
       href: research.qmd
+      target: _blank
       contents:
-            - fire.qmd
-            - demography.qmd
-            - community.qmd
-            - climchange.qmd
-            - zoology.qmd
-            - social.qmd
+        - demography.qmd
+        - community.qmd
+        - fire.qmd
+        - climchange.qmd
+        - zoology.qmd
+        - social.qmd
   page-navigation: true
   back-to-top-navigation: true
   page-footer: "Copyright 2025, Heitor C. Sousa"

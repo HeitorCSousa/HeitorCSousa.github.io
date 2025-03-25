@@ -5,4 +5,4 @@ website:
   template: jolla
 ---
 
-Here are some of my research interests in social conservation.
+**Social Conservation** is an interdisciplinary approach to environmental protection and resource management that prioritizes the integration of human communities, cultural values, and social equity into conservation strategies. It emphasizes the interdependence of ecological health and societal well-being, recognizing that effective conservation requires addressing human needs, rights, and participation.

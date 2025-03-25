@@ -1,8 +1,8 @@
 ---
-title: "Fire Ecology"
+title: "Pyrogeography"
 format: html
 website:
   template: jolla
 ---
 
-Here are some of my research interests in fire ecology.
+**Pyrogeography** is an interdisciplinary field that examines the spatial and temporal patterns, processes, and impacts of fire across the Earth's landscapes. This approach integrate how the biological, physical, and social sciences interact with fire.

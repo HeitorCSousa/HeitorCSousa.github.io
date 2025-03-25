@@ -1,0 +1,36 @@
+---
+title: "Research"
+format: html
+website:
+  template: jolla
+---
+
+#### Research interests
+
+My work spans (**animal**) **ecology**, **evolution**, **pyrogeography**, and **social conservation**, with a focus on understanding how biological systems, environmental processes, and human societies intersect. Below are my core research themes (click to explore):
+
+\
+
+[![(Bio)demography](demography.jpeg)](demography.qmd)
+
+\
+
+[![Biogeography](community.jpeg)](community.qmd)
+
+\
+
+[![Pyrogeography](fire.jpeg)](fire.qmd)
+
+\
+
+[![Climate change](climchange.jpeg)](climchange.qmd)
+
+\
+
+[![Zoology](zoology.jpeg)](zoology.qmd)
+
+\
+
+[![Social conservation](social.jpeg)](social.qmd)
+
+\
