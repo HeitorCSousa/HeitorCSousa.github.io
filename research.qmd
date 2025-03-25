@@ -31,6 +31,6 @@ My work spans (**animal**) **ecology**, **evolution**, **pyrogeography**, and **
 
 \
 
-[![Social conservation](research/social.jpeg)](social)
+[![Social conservation](research/social.jpeg)](social.qmd)
 
 \
