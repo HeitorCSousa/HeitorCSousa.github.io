@@ -1,25 +1,19 @@
 
-- caption: "Fire ecology"
-  image: "research/fire.jpeg"
-  link: "/fire.html"
+- image: "research/fire.jpeg"
+  link: "/research.html"
   
-- caption: "Biodemography"
-  image: "research/demography.jpeg"
-  link: "/demography.html"
+- image: "research/demography.jpeg"
+  link: "/research.html"
   
-- caption: "Community ecology"
-  image: "research/community.jpeg"
-  link: "/community.html"
+- image: "research/community.jpeg"
+  link: "/research.html"
 
-- caption: "Climate change"
-  image: "research/climchange.jpeg"
-  link: "/climchange.html"
+- image: "research/climchange.jpeg"
+  link: "/research.html"
 
-- caption: "Zoology"
-  image: "research/zoology.jpeg"
-  link: "/zoology.html"
+- image: "research/zoology.jpeg"
+  link: "/research.html"
   
-- caption: "Social"
-  image: "research/social.jpeg"
-  link: "/social.html"
+- image: "research/social.jpeg"
+  link: "/research.html"
   
