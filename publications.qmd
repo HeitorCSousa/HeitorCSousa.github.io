@@ -8,21 +8,21 @@ bibliography: references.bib
 
 Here is a list of my publications in cronological order. Click on each citation to view the complete reference.
 
-| Citation                | Type         | Contribution |
-|-------------------------|--------------|--------------|
-| @desousa2024            | Article      | First-author |
-| @RN11618                | Book chapter | Last-author  |
-| @c.sousa2023            | Article      | First-author |
-| @RN11617                | Book chapter | Co-author    |
-| @simoncini2022          | Article      | Co-author    |
-| @gonçalveskagueiama2022 | Article      | Co-author    |
-| @RN11619                | Book chapter | First-author |
-| @ataídes2021            | Article      | Co-author    |
-| @costa2019              | Article      | Co-author    |
-| @colli2019              | Article      | Last-author  |
-| @sousa2016              | Article      | First-author |
-| @sousa2015              | Article      | First-author |
-| @morais2014             | Article      | Co-author    |
+| Citation | Topic | Type | Contribution |
+|----|----|----|----|
+| @desousa2024 | Biodemography & Pyrogeography | Article | First-author |
+| @RN11618 | Biogeography & Zoology | Book chapter | Last-author |
+| @c.sousa2023 | Social Conservation | Article | First-author |
+| @RN11617 | Social Conservation | Book chapter | Co-author |
+| @simoncini2022 | Biodemography & Climate change | Article | Co-author |
+| @gonçalveskagueiama2022 | Climate change & Zoology | Article | Co-author |
+| @RN11619 | Social Conservation | Book chapter | First-author |
+| @ataídes2021 | Biodemography & Climate change | Article | Co-author |
+| @costa2019 | Zoology & Pyrogeography | Article | Co-author |
+| @colli2019 | Zoology | Article | Last-author |
+| @sousa2016 | Biodemography & Zoology | Article | First-author |
+| @sousa2015 | Biodemography & Pyrogeography | Article | First-author |
+| @morais2014 | Zoology | Article | Co-author |
 
 : Articles in cronological order
 
