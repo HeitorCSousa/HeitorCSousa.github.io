@@ -44,4 +44,5 @@ format:
     toc: true
 
 editor: visual
-
+filters:
+    - openlinksinnewpage

@@ -8,19 +8,23 @@ bibliography: references.bib
 
 Here is a list of my publications in cronological order. Click on each citation to view the complete reference.
 
-| Citation                | Type    | Contribution |
-|-------------------------|---------|--------------|
-| @desousa2024            | Article | First-author |
-| @c.sousa2023            | Article | First-author |
-| @simoncini2022          | Article | Co-author    |
-| @gonçalveskagueiama2022 | Article | Co-author    |
-| @ataídes2021            | Article | Co-author    |
-| @costa2019              | Article | Co-author    |
-| @colli2019              | Article | Last-author  |
-| @sousa2016              | Article | First-author |
-| @sousa2015              | Article | First-author |
-| @morais2014             | Article | Co-author    |
+| Citation                | Type         | Contribution |
+|-------------------------|--------------|--------------|
+| @desousa2024            | Article      | First-author |
+| @RN11618                | Book chapter | Last-author  |
+| @c.sousa2023            | Article      | First-author |
+| @RN11617                | Book chapter | Co-author    |
+| @simoncini2022          | Article      | Co-author    |
+| @gonçalveskagueiama2022 | Article      | Co-author    |
+| @RN11619                | Book chapter | First-author |
+| @ataídes2021            | Article      | Co-author    |
+| @costa2019              | Article      | Co-author    |
+| @colli2019              | Article      | Last-author  |
+| @sousa2016              | Article      | First-author |
+| @sousa2015              | Article      | First-author |
+| @morais2014             | Article      | Co-author    |
 
 : Articles in cronological order
 
-Below, you will find
+\
+Below, you will find the full references in alphabetical order.
