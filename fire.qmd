@@ -5,4 +5,20 @@ website:
   template: jolla
 ---
 
-**Pyrogeography** is an interdisciplinary field that examines the spatial and temporal patterns, processes, and impacts of fire across the Earth's landscapes. This approach integrate how the biological, physical, and social sciences interact with fire.
+**Pyrogeography** is an interdisciplinary field that examines the spatial and temporal patterns, processes, and impacts of fire across the Earth's landscapes. This approach integrates how the biological, physical, and social sciences interact with fire.
+
+\
+![](research/Pyrogeo_Triangle.png){width="400"}
+
+\
+I work in the three segments of pyrogeography (biota, physical environment, and society), mainly in the Brazilian Cerrado savannas, a fire-prone region.
+
+In the biological sciences, I use lizards as model organisms to understand how different fire regimes affect natural populations and communities.
+
+In the physical sciences, I use geospatial modeling to investigate fire regimes and how climate change might influence them in the future.
+
+In the social sciences, I use environmental perception methods (*e.g.*, content analysis) and modeling to investigate how humans interact with fire.
+
+An interdisciplinary approach is essential to achieve sustainable fire regimes in a changing world through Integrated Fire Management (IFM).
+
+[Check my publications related to the pyrogeography here.](publications.qmd)

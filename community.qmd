@@ -3,6 +3,31 @@ title: "Biogeography"
 format: html
 website:
   template: jolla
+bibliography: references.bib
 ---
 
-Here are some of my research interests in community ecology.
+Biogeography is the study of how life is distributed across space and time. It investigates why species, communities, and ecosystems occur where they do—unraveling the roles of climate, geology, evolutionary history, and human activity in shaping biodiversity patterns.
+
+![](research/Globe.jpeg){fig-align="center" width="400"}
+
+**Key questions I explore:**
+
+-   How species respond to environmental (microclimate and vegetation) gradients?
+
+-   Which spatial and temporal processes are most important for population and assemblage dynamics?
+
+-   How species respond to environmental disturbances, such as climate and fire?
+
+I use geospatial, demographic, and species distribution models to understand species' niches and range dynamics. By using this integrated framework, we can investigate how spatial and temporal processes affect species ranges and biodiversity, bridging ecology, geography, and evolutionary biology. My work contributes to the six main shortfalls of biodiversity knowledge (@hortal2015):
+
+1.  Linnean (unknown species)
+
+2.  Wallacean (unknown geographic distribution)
+
+3.  Prestonian (unknown population dynamics)
+
+4.  Darwinian (unknown evolutionary relationships)
+
+5.  Raunkiæran (unknown functional traits and ecological functions)
+
+6.  Hutchinsonian (unknown niches)
