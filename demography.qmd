@@ -5,4 +5,25 @@ website:
   template: jolla
 ---
 
-Here are some of my research interests in biodemography, also known as population ecology.
+Biodemography, also known as population ecology, investigates the biological and environmental drivers of population dynamics—survival, reproduction, and dispersal—across species. It merges principles from demography, evolutionary biology, and ecology to understand how population structure, life history strategies, and environmental pressures shape populations over time and space.
+
+![](research/demographicrates.png){fig-align="center" width="500"}
+
+### **Key questions I explore**
+
+-   How do lifespan, fecundity, and survival rates vary among species, and what evolutionary trade-offs drive these differences?
+
+-   What factors (e.g., climate extremes, habitat loss, or fire regimes) threaten population viability?
+
+-   How can demographic models inform conservation strategies for at-risk species?
+
+\
+Using statistical modeling, longitudinal field studies, and mark-recapture methods, my work in biodemography addresses challenges like species resilience in varying fire regimes and climate-driven shifts in life-history traits.
+
+### **Why it matters**
+
+\
+Biodemography reveals the “hidden engines” of biodiversity loss and adaptation. By quantifying survival risks and reproductive success, it provides actionable insights for protecting species in an era of rapid environmental change.
+
+\
+[Check my publications related to biodemography here.](publications.qmd)

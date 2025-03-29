@@ -5,4 +5,25 @@ website:
   template: jolla
 ---
 
-Here are some of my research interests in zoology.
+Zoology is the scientific study of animals—their behavior, physiology, evolution, and ecological roles. It spans scales from molecular mechanisms to ecosystem dynamics, exploring how animals adapt to environmental challenges, interact with their habitats, and contribute to biodiversity.
+
+![](research/zoology.jpeg){fig-align="center"}
+
+### **Key questions I explore**
+
+-   How do reptiles, amphibians, and other taxa respond to environmental stressors like climate extremes, habitat fragmentation, or altered fire regimes?
+
+-   What evolutionary strategies (e.g., thermal tolerance, reproductive plasticity) enable species to persist in changing landscapes?
+
+-   How can animal ecology inform equitable conservation strategies that benefit both wildlife and human communities?
+
+\
+Using field surveys, ecophysiological experiments, and statistical analyses, my zoological research investigates species’ resilience in the Anthropocene. Taxonomicaly, I'm expert in reptiles and amphibians, also known as herpetofauna.
+
+### **Why it matters**
+
+\
+Animals are vital indicators of ecosystem health and drivers of ecological processes. By studying their biology and vulnerabilities, zoology provides critical insights for conserving biodiversity, mitigating human-wildlife conflicts, and fostering resilient ecosystems in a rapidly changing world.
+
+\
+[Check my publications related to zoology here.](publications.qmd)

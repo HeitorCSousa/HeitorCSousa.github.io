@@ -6,11 +6,12 @@ website:
 bibliography: references.bib
 ---
 
-Biogeography is the study of how life is distributed across space and time. It investigates why species, communities, and ecosystems occur where they do—unraveling the roles of climate, geology, evolutionary history, and human activity in shaping biodiversity patterns.
+\
+Biogeography is the study of how life is distributed across space and time. It investigates why species, communities, and ecosystems occur where they do—unraveling the roles of climate, geology, evolutionary history, and human activity in shaping biodiversity patterns.\
 
 ![](research/Globe.jpeg){fig-align="center" width="400"}
 
-**Key questions I explore:**
+### **Key questions I explore**
 
 -   How species respond to environmental (microclimate and vegetation) gradients?
 
@@ -18,7 +19,7 @@ Biogeography is the study of how life is distributed across space and time. It i
 
 -   How species respond to environmental disturbances, such as climate and fire?
 
-I use geospatial, demographic, and species distribution models to understand species' niches and range dynamics. By using this integrated framework, we can investigate how spatial and temporal processes affect species ranges and biodiversity, bridging ecology, geography, and evolutionary biology. My work contributes to the six main shortfalls of biodiversity knowledge (@hortal2015):
+I use geospatial, demographic, and species distribution models to understand species' niches and range dynamics. By using this integrated framework, I can investigate how spatial and temporal processes affect species ranges and biodiversity, bridging ecology, geography, and evolutionary biology. My work contributes to the six main shortfalls of biodiversity knowledge (@hortal2015):
 
 1.  Linnean (unknown species)
 
@@ -31,3 +32,15 @@ I use geospatial, demographic, and species distribution models to understand spe
 5.  Raunkiæran (unknown functional traits and ecological functions)
 
 6.  Hutchinsonian (unknown niches)
+
+### **Why it matters**
+
+These shortfalls highlight the **interdisciplinary nature of biogeography**, demanding integration of genomics, ecology, social sciences, and climate science. Addressing them is urgent for:
+
+-   **Conservation**: Protecting species with incomplete trait or distribution data.
+
+-   **Policy**: Grounding decisions in robust ecological and social evidence.
+
+-   **Discovery**: Unveiling hidden biodiversity (e.g., cryptic species) and ecological processes.
+
+[Check my publications related to biogeography here.](publications.qmd)

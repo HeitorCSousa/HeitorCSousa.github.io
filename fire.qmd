@@ -5,20 +5,28 @@ website:
   template: jolla
 ---
 
-**Pyrogeography** is an interdisciplinary field that examines the spatial and temporal patterns, processes, and impacts of fire across the Earth's landscapes. This approach integrates how the biological, physical, and social sciences interact with fire.
-
 \
-![](research/Pyrogeo_Triangle.png){width="400"}
-
 \
+**Pyrogeography** is an interdisciplinary field that examines the spatial and temporal patterns, processes, and impacts of fire across the Earth's landscapes. By bridging biological, physical, and social sciences, pyrogeography seeks to unravel fire’s dual role as a natural process and a cultural artifact.\
+
+![](research/Pyrogeo_Triangle.png){fig-align="center" width="400"}
+
+###  Key topics I explore
+
 I work in the three segments of pyrogeography (biota, physical environment, and society), mainly in the Brazilian Cerrado savannas, a fire-prone region.
 
-In the biological sciences, I use lizards as model organisms to understand how different fire regimes affect natural populations and communities.
+In the biological sciences, I use lizards as model organisms to understand how different fire regimes—patterns of frequency, intensity, and seasonality—affect natural populations and communities.
 
 In the physical sciences, I use geospatial modeling to investigate fire regimes and how climate change might influence them in the future.
 
 In the social sciences, I use environmental perception methods (*e.g.*, content analysis) and modeling to investigate how humans interact with fire.
 
+### **Why it matters**
+
+Fire is not just a destructive force—it is a keystone process that maintains biodiversity, shapes biogeochemical cycles, and sustains cultural landscapes. Understanding its spatial and human dimensions is vital for fostering resilient ecosystems and societies in an era of global change.
+
 An interdisciplinary approach is essential to achieve sustainable fire regimes in a changing world through Integrated Fire Management (IFM).
 
-[Check my publications related to the pyrogeography here.](publications.qmd)
+\
+
+[Check my publications related to pyrogeography here.](publications.qmd)

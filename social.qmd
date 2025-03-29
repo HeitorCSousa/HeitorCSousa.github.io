@@ -6,3 +6,22 @@ website:
 ---
 
 **Social Conservation** is an interdisciplinary approach to environmental protection and resource management that prioritizes the integration of human communities, cultural values, and social equity into conservation strategies. It emphasizes the interdependence of ecological health and societal well-being, recognizing that effective conservation requires addressing human needs, rights, and participation.
+
+![](research/wordcloud.png){fig-align="center" width="400"}
+
+### Key focuses of my work
+
+-   How cultural practices (e.g., fire management) sustain biodiversity and mitigate ecological threats.
+
+-   Addressing environmental perception towards fire, climate change, and biodiversity.
+
+-   Prioritizing conservation and environmental management goals that link ecological resilience with human well-being.
+
+\
+Combining ethnography, participatory mapping, and ecological fieldwork, my research in social conservation bridges disciplines like **political ecology**, **environmental anthropology**, and **biocultural diversity**. It directly informs strategies for equitable fire governance, species protection, and climate resilience—aligning with my work in **pyrogeography** and **zoology** (*e.g.*, conserving culturally significant reptiles/amphibians).
+
+### **Why it matters**
+
+Social conservation redefines "success" in environmental management: thriving ecosystems cannot exist without thriving communities. By integrating justice, traditional knowledge, and science, it offers pathways to heal both landscapes and social divides in an era of global change.
+
+[Check my publications related to social conservation here.](publications.qmd)

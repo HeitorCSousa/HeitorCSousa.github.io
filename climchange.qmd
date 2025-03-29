@@ -5,4 +5,24 @@ website:
   template: jolla
 ---
 
-Here are some of my research interests in climate change.
+Climate change science is the interdisciplinary study of Earth’s changing climate systems, their drivers, impacts, and solutions. It integrates atmospheric physics, ecology, geography, and social sciences to understand how human activities (e.g., greenhouse gas emissions, land-use changes) alter global and regional climates—and how these shifts cascade through ecosystems and societies.
+
+![](research/globbefire.jpeg){fig-align="center" width="400"}
+
+### **Key topics I study**
+
+-   **Drivers & Feedbacks**: Quantifying anthropogenic influences (e.g., deforestation, fossil fuels) and natural feedback loops (*e.g.*, wildfire-climate interactions).
+
+-   **Ecological Impacts**: Assessing species’ responses to warming, shifting precipitation, and extreme events—from reptile thermal physiology to altered climate.
+
+-   **Adaptation & Mitigation**: Identifying equitable strategies to reduce risks, enhance resilience, and protect biodiversity.
+
+I use species distribution models (SDMs) and demographic models integrated with ecophysiological and microclimate data to understand species responses to climate. By using climate change projection scenarios I forecast species range, phenological, and populational changes in the future.
+
+### **Why it matters**
+
+\
+Climate change science transcends disciplinary silos, offering actionable insights to address one of the greatest challenges of our time. From informing policy to guiding on-the-ground conservation, it equips us to protect both ecosystems and the communities that depend on them.
+
+\
+[Check my publications related to climate change here.](publications.qmd)
