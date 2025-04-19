@@ -1,7 +1,7 @@
 ---
 title: "Dr. Heitor Campos de Sousa"
 subtitle: "Post-Doc Researcher"
-resources: references.bib
+resources: references.bib CV_HeitorCSousa_En.pdf
 about: 
   template: solana
   image: profile.jpeg
@@ -31,6 +31,10 @@ about:
     - icon: envelope-at
       text: e-mail
       href: mailto:heitorsousa.bio@gmail.com
+    - icon: file-text
+      text: CV
+      href: CV_HeitorCSousa_En.pdf
+      target: _blank
 page-navigation: false
 ---
 

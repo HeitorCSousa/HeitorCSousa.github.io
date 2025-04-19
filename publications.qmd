@@ -9,7 +9,8 @@ bibliography: references.bib
 Here is a list of my publications in cronological order. Click on each citation to view the complete reference.
 
 | Citation | Topic | Type | Contribution |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
+| @sousa2025 | Social Conservation & Pyrogeography | Article | First-author |
 | @desousa2024 | Biodemography & Pyrogeography | Article | First-author |
 | @RN11618 | Biogeography & Zoology | Book chapter | Last-author |
 | @c.sousa2023 | Social Conservation | Article | First-author |
@@ -27,4 +28,4 @@ Here is a list of my publications in cronological order. Click on each citation 
 : Articles in cronological order
 
 \
-Below, you will find the full references in alphabetical order.
+Below, you will find the full references in alphabetical order. If you want access to the full publications, please go to my [ResearchGate profile](https://www.researchgate.net/profile/Heitor-Campos-De-Sousa) or send me an e-mail ([heitorsousa.bio\@gmail.com](mailto:heitorsousa.bio@gmail.com)).

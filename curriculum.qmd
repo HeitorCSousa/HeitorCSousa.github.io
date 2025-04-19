@@ -1,8 +1,1 @@
----
-title: "CV"
-format: html
-website:
-  template: jolla
----
-
-Here is my Curriculum Vitae.
+![](CV_HeitorCSousa_En.pdf){width=100% height=1000px}
