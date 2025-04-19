@@ -11,7 +11,7 @@ website:
 
 ![](research/Pyrogeo_Triangle.png){fig-align="center" width="400"}
 
-###  Key topics I explore
+### Key topics I explore
 
 I work in the three segments of pyrogeography (biota, physical environment, and society), mainly in the Brazilian Cerrado savannas, a fire-prone region.
 
