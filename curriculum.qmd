@@ -1,1 +1,122 @@
-![](CV_HeitorCSousa_En.pdf){width=100% height=1000px}
+---
+title: "CV"
+format: html
+about: 
+  template: solana
+  links: 
+    - icon: r-square
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Heitor-Campos-De-Sousa
+      target: _blank
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/heitor-campos-de-sousa/
+      target: _blank
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/bioheitorsousa.bsky.social
+      target: _blank
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/bioheitorsousa/
+      target: _blank
+    - icon: threads
+      text: Threads
+      href: https://www.threads.net/@bioheitorsousa
+      target: _blank
+    - icon: envelope-at
+      text: e-mail
+      href: mailto:heitorsousa.bio@gmail.com
+    - icon: file-text
+      text: CV in PDF
+      href: CV_HeitorCSousa_En.pdf
+      target: _blank
+  id: ppc
+page-navigation: true
+---
+
+::: {#ppc}
+# Heitor Campos de Sousa
+
+Environmental Science professional with extensive experience (over 10 years) in teaching, research, and consulting.\
+
+I am skilled in providing detailed explanations and solutions for complex scientific problems for students and stakeholders, making information accessible and understandable. Also experienced with online tutoring, advanced in balancing multiple projects and meeting tight deadlines in research and consulting roles, and committed to delivering high-quality assistance to students.
+:::
+
+------------------------------------------------------------------------
+
+# EDUCATION 
+
+## PhD / Environmental Sciences 
+
+Federal University of Tocantins (UFT) with sandwich period at the University of Oxford, England (UK)
+
+2019-2023
+
+## MSc / Ecology 
+
+University of Brasília (UnB) 2014-2016
+
+## Bachelor/ Biological Sciences 
+
+University of Brasília (UnB)
+
+2009-2013\
+
+# PUBLICATIONS
+
+-   11 papers in scientific journals
+
+-   3 chapter books
+
+-   2 blogs
+
+[Check all my publications here.](publications.qmd)
+
+# LANGUAGES
+
+-   Portuguese (native)
+
+-   English (fluent)
+
+-   Spanish\
+
+# KEY EXPERIENCES
+
+## Professor and Researcher
+
+### University of Brasília (UnB)/ Brasília-DF / 2010-2016 \| 2023-Present
+
+Worked as intern, scientific initiation fellow, master’s student and now post-doc researcher. I have been assisting in scientific project proposals, tutoring undergraduate students, and teaching disciplines in biology and ecology.
+
+-   Inventory and monitoring of amphibians and reptiles
+
+-   Preparing and teaching practical and theoretical biology and ecology classes
+
+-   Analysis and structuring of demographic, climatic, and microclimatic databases for environmental change studies
+
+### Federal University of Tocantins (UFT) / Palmas-TO / 2018-Present
+
+I have been writing ecological and conservation research projects to get funding and tutoring under- and graduate students. During 6 months I worked as Guest Professor and taught classes for the Environmental Engineering course. I frequently organize workshops to democratize knowledge and enhance accessibility to ecology, environmental sciences, and statistics.
+
+-   Preparing and teaching practical and theoretical classes
+
+-   Formally supervising 11 undergraduate students
+
+-   Teaching and assistance in animal inventories and monitoring, data collection and analyses, and scientific writing
+
+## Environmental Consultant
+
+### Nippon Koei LAC do Brasil / Palmas-TO / 2016-2023
+
+Worked as environmental consultant in several multidisciplinary projects, coordinated field teams, and wrote several winning technical proposals.
+
+-   Biotic, abiotic, and social data collection for socioenvironmental diagnostics
+
+-   Statistical and geoprocessing analyses
+
+-   Writing and Revision of technical reports and proposals
+
+-   Teaching lectures and workshops
+
+# 
