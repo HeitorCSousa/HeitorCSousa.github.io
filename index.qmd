@@ -16,7 +16,7 @@ about:
       text: Linkedin
       href: https://www.linkedin.com/in/heitor-campos-de-sousa/
       target: _blank
-    - icon: twitter
+    - icon: bluesky
       text: Bluesky
       href: https://bsky.app/profile/bioheitorsousa.bsky.social
       target: _blank
