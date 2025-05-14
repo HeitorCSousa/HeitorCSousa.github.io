@@ -11,26 +11,26 @@ My work spans (**animal**) **ecology**, **evolution**, **pyrogeography**, and **
 
 \
 
-[![(Bio)demography](research/demography.jpeg)](demography.qmd)
+[![(Bio)demography](research/demography.jpeg){fig-align="left"}](demography.qmd)
 
 \
 
-[![Biogeography](research/community.jpeg)](community.qmd)
+[![Biogeography](research/community.jpeg){fig-align="left"}](community.qmd)
 
 \
 
-[![Pyrogeography](research/fire.jpeg)](fire.qmd)
+[![Pyrogeography](research/fire.jpeg){fig-align="left"}](fire.qmd)
 
 \
 
-[![Climate change](research/climchange.jpeg)](climchange.qmd)
+[![Climate change](research/climchange.jpeg){fig-align="left"}](climchange.qmd)
 
 \
 
-[![Zoology](research/zoology.jpeg)](zoology.qmd)
+[![Zoology](research/zoology.jpeg){fig-align="left"}](zoology.qmd)
 
 \
 
-[![Social conservation](research/social.jpeg)](social.qmd)
+[![Social conservation](research/social.jpeg){fig-align="left"}](social.qmd)
 
 \
