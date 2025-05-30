@@ -39,6 +39,11 @@ format:
     theme: darkly
     css: styles.css
     toc: true
+    
+output: 
+  html_document:
+    includes:
+       in_header: google_analytics.html
 
 editor: visual
 filters:
