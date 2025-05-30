@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Heitor C. Sousa"
+  google-analytics: "G-FSNLDZW8VR"
   navbar:
     left:
       - href: index.qmd
@@ -39,9 +40,6 @@ format:
     theme: darkly
     css: styles.css
     toc: true
-    
-output: 
-  html_document:
     includes:
        in_header: google_analytics.html
 
