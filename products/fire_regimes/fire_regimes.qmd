@@ -63,11 +63,11 @@ We crossed the fire regime classification with land use information and the fire
 | 4 | High-Biomass Ecotone | A regime defined by seasonal constraints and high biomass. | Shows a distinct seasonal avoidance pattern (lower frequency in peak dry months), high shape regularity (lsm_c_circle_mn) and patch density, and low isolation variation. | Defined by high NDVI (biomass), pasture and other anthropic uses, and wet herbaceous vegetation (wetlands). Located in the edges of the Cerrado. | These are moisture-limited systems like wet grasslands and Veredas (palm swamps). They are too wet to burn during the early dry season and only become susceptible during specific drought windows, leading to fires that may follow linear landscape features (rivers), resulting in regular shapes. |
 | 5 | Frontier Interface | A transitional regime with variable and scattered fire activity. | Metrics are generally average or "messy," with high variability in isolation (lsm_c_enn_sd) and integrity variation. Mean core areas of fires are lower than average (lsm_c_core_mn). | Characterized by a mix of forest and agricultural land covers like soybean and temporary crops. | This corresponds to the agricultural frontier (e.g., Matopiba) or the Amazon-Cerrado ecotone. Fire activity here is driven by the interaction between deforestation/clearing fires and the remaining forest edges, resulting in a spatially heterogeneous pattern. |
 
-![](fire_regimes/heatmap_fire_mclust_parameter.png)
+![](heatmap_fire_mclust_parameter.png)
 
-![](fire_regimes/heatmap_fire_classes_land.png)
+![](heatmap_fire_classes_land.png)
 
-## The Atlas
+# The Atlas
 
 Interact with the Atlas! To download the original rasters. Access the GitHub page. For more customizable downloads, see the Shiny App I created.
 
