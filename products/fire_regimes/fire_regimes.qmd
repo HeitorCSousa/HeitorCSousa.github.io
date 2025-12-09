@@ -4,6 +4,7 @@ description: "An interactive analysis of 40 years of fire history in a high reso
 author: "Heitor Sousa"
 date: "2025-12-09"
 image: "fire_regimes.png" # Optional: Thumbnail image for the grid
+resources: "fire_regimes.png"
 categories: [R, Fire Ecology, Spatial Analysis, leaflet] # Tags
 format: 
   html:

@@ -9,6 +9,7 @@ listing:
   filter-ui: true
   fields: [image, date, title, reading-time, description]
 page-layout: full
+resources: "fire_regimes.png"
 title-block-banner: true
 format: html
 website:
