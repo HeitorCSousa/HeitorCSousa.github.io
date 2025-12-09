@@ -16,6 +16,38 @@ format:
 
 This product is an integration of different fire metrics derived from the monthly MapBiomas Fire product in a landscape scale (\~9 km).
 
+## **Goal of the Product**
+
+The **Cerrado Fire Regimes Atlas** is designed as a strategic resource for **fire ecologists, pyrogeographers**, environmental managers, and policymakers.
+
+While traditional monitoring systems focus on *where* and *when* fire occurs (burned area), this project aims to decipher the complex **pyrogeography** of the biome. By analyzing 40 years of historical data (MapBiomas Fogo, 1985-2024) through the lens of Landscape Ecology and Machine Learning, this atlas provides a structural classification of fire activity.
+
+**Primary Objectives:**
+
+-   **Advance Pyrogeographical Understanding:** To support the scientific community in moving beyond binary "burned/unburned" analyses by quantifying distinct **Fire Regimes**—recurring patterns of frequency, seasonality, size, and shape—that drive ecosystem dynamics.
+
+-   **Distinguish Natural vs. Anthropogenic Fire:** To differentiate between the natural, ecological fire cycles of the open savannas (Regime 3) and the anthropogenic, degradation-driven fires at the agricultural frontier (Regime 5).
+
+-   **Track Regime Shifts:** To visualize where fire regimes are changing over time (e.g., areas shifting from natural cycles to suppression or intensification) due to land use change and climate variability.
+
+-   **Support Conservation Planning:** To identify priority areas where the current fire regime diverges from the historical baseline, guiding prescribed burning or suppression efforts.
+
+------------------------------------------------------------------------
+
+## **What this Product is NOT**
+
+It is equally important to understand the limitations of this tool to ensure its appropriate application.
+
+-   🚫 **It is NOT a Fire Intensity or Severity Map:** This atlas classifies regimes based on the **spatiotemporal structure** of fire scars (e.g., frequency, seasonality, patch shape, fragmentation). It does not directly measure **Fire Radiative Power (FRP)** or spectral indices of burn severity (e.g., dNBR).
+
+    -   *Note:* While structural metrics like **Mean Core Area** are often strongly correlated with intensity (larger, more solid fires tend to burn hotter), this tool infers regime characteristics from pattern, not from direct energy measurements.
+
+-   🚫 **It is NOT a Real-Time Alert System:** This tool does not detect fires happening *today*. For active fire monitoring and emergency response, please refer to the operational systems provided by **INPE (Queimadas)** or **NASA FIRMS**.
+
+-   🚫 **It is NOT a Fire Spread Model:** It classifies historical patterns. It does not simulate the physics of fire spread for specific ignition events based on current weather conditions.
+
+-   🚫 **It is NOT a Future Forecast:** While it visualizes historical trajectories (1985–2024), it describes the *state* of the fire regime, not the *probability* of next year's fire.
+
 ## Data Sources and Processing
 
 ### Fire Occurrence and Metrics
@@ -71,7 +103,7 @@ We crossed the fire regime classification with land use information and the fire
 
 # The Atlas
 
-Interact with the Atlas! To download the original rasters. Access the GitHub page. For more customizable downloads, see the Shiny App I created.
+Interact with the Atlas! To download the original rasters. Access the GitHub or Zenodo pages (available soon). For more customizable downloads, see the Shiny App I created (available soon).
 
 ```{r setup, include=FALSE}
 #| warning: false
