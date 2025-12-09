@@ -16,6 +16,9 @@ website:
       - href: curriculum.qmd
         text: "CV"
         target: _blank
+      - href: products.qmd
+        text: "Products"
+        target: _blank
 
   sidebar:
     - id: research

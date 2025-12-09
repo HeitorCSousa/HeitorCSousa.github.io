@@ -1,0 +1,359 @@
+---
+title: "Cerrado Fire Regimes Atlas"
+description: "An interactive analysis of 40 years of fire history in a high resolution scale"
+author: "Heitor Sousa"
+date: "2025-12-09"
+categories: [R, Fire Ecology, Spatial Analysis, leaflet] # Tags
+format: 
+  html:
+    page-layout: full
+    toc: true
+---
+
+# Introduction
+
+This product is an integration of different fire metrics derived from the monthly MapBiomas Fire product in a landscape scale (\~9 km).
+
+## Data Sources and Processing
+
+### Fire Occurrence and Metrics
+
+| Source: Monthly burned area data from MapBiomas Fogo Collection 4 (1985-2024), which provides 30m resolution mapping of fire scars across Brazil.
+
+### Processing
+
+-   Fire Scars: Individual fire events were identified from the monthly data in a 9 km- cells grid.
+
+-   Landscape Metrics: For each fire scar, a suite of landscape metrics was calculated to characterize its spatial pattern. To ensure statistical robustness, variable selection was performed to remove highly collinear metrics (using VIF or correlation thresholds).
+
+-   Aggregation: The metrics were averaged over the entire study period (1985-2024) and also aggregated by decade to capture temporal trends.
+
+### Final Metrics
+
+The selected metrics include:
+
+|  |  |  |
+|------------------------|------------------------|------------------------|
+| **Metric Type** | **Metric Name** | **Ecological Interpretation (What it Measures)** |
+| Fire Abundance | Fire Scar Density | Measures the number of individual fire scars per unit of area. It reflects ignition patterns and landscape constraints on fire spread. High values suggest frequent ignitions or a fragmented landscape that prevents scars from becoming large. Low values indicate fewer, potentially larger fire events. |
+| Fire Configuration | Fire Scar Fragmentation | Measures how the total burned area is broken up into separate, smaller scars. It reflects the continuity of fuel and burn conditions. A high value indicates a highly fragmented burned landscape, suggesting discontinuous fuels or varied fire behavior. A low value points to a few large, contiguous fire scars. |
+| Fire Scar Shape | Fire Scar Shape Regularity | Describes how compact or convoluted fire scar shapes are on average. It's an indicator of how uniformly fire spreads. Values closer to 1 indicate simple, compact scars, typical of fires in uniform fuel with no wind. Values closer to 0 indicate highly irregular shapes, presumably driven by wind, topography, or fuel heterogeneity. |
+| Fire Configuration | Fire Scar Isolation Variation | Measures the variability in the distance between a fire scar and its nearest neighboring scar. It describes the spatial clustering of fire activity. A high value suggests an uneven spatial pattern where some scars are tightly clustered while others are very isolated. A low value indicates that fire scars are more evenly spaced. |
+| Fire Scar Interior | Mean Fire Scar Core Size | Measures the average size of the "core" or interior area of fire scars, buffered from the unburned edge. It represents the average extent of uninterrupted, high-intensity burning. Larger values indicate larger, more completely burned scars, while smaller values suggest smaller or narrower scars with more edge influence. |
+| Fire Scar Interior | Fire Scar Integrity Variation | Measures the variability in the proportion of each fire scar that is considered "core" area. It captures the consistency of burn completeness across different scars. A high value indicates a mix of scar types: some are solid with large cores, while others are "hollow" or linear with very little core area. |
+| Fire Scar Interior | Internal Fire Scar Heterogeneity | Measures the variability in the number of unburned islands (refugia) left within individual fire scars. It's a key indicator of burn severity and heterogeneity. A high value suggests that fire behavior is inconsistent, with some scars leaving many unburned patches and others burning more completely. |
+| Fire frequency | Fire occurrence (monthly) | Measures if the cell was burned or not (binary, 0 or 1). When averaged across years, represents the proportion of years a pixel burned in each month (Jan-Dec). |
+
+### Classification Method of Fire Regimes
+
+-   Algorithm: Model-based Clustering (mclust) was used to classify pixels into distinct fire regimes based on their fire metrics and monthly frequencies.
+
+-   Model Selection: The VVV (ellipsoidal, varying volume, shape, and orientation) model with 5 components (clusters) was selected based on the Bayesian Information Criterion (BIC), which showed a plateau in performance improvement after 5 clusters, indicating an optimal balance between model complexity and fit.
+
+## Characterization of Fire Regimes
+
+We crossed the fire regime classification with land use information and the fire metrics that predicted them. Here is a summary of the fire regimes characteristics:
+
+|  |  |  |  |  |  |
+|------------|------------|------------|------------|------------|------------|
+| Fire Regime | Name | Description | Fire Metrics | Landscape context | Socioecological interpretation |
+| 1 | Anthropogenic Suppression | This regime is characterized by very rare and suppressed fire activity. | All fire metrics (frequency, density, size) are below average (blue in the heatmap), except for fire shape regularity and fragmentation. | Dominated by pasture, sugar cane, and areas with high population density and anthropic use. | This represents the consolidated agricultural matrix where fire is actively suppressed to protect assets (crops, infrastructure) and due to the lack of continuous flammable vegetation. |
+| 2 | Grassland Wildfire | This regime features infrequent but large and intense wildfires. | Characterized by high mean core area (lsm_c_core_mn) and core variability (lsm_c_dcore_sd), indicating large, continuous burn scars when fires do occur. Monthly frequency is generally low or average, but relatively higher in September (late dry season). | Associated with native open (grasslands, savannas) and native vegetation areas with low population density. | These are likely large natural remnants or protected areas where fuel accumulates over longer periods. When fires occur, the continuous grassy fuel allows them to spread extensively, creating large, solid scars. |
+| 3 | Pyrophilic Savanna | This is the most active fire regime, characterized by frequent, fragmented burning throughout the year. | High values for fire density (lsm_c_pd), isolation variation (lsm_c_enn_sd), internal heterogeneity, and fire frequency across almost all months (Jan-Dec). | Strongly dominated by savanna formations, but with some moderate population occupation (pop) and soybean plantation | This represents the core "fire-prone" savanna biome. The high frequency and fragmentation reflect the natural flammability of the vegetation and potentially the influence of human ignitions that are frequent but spatially limited by the mosaic of fuel types. |
+| 4 | High-Biomass Ecotone | A regime defined by seasonal constraints and high biomass. | Shows a distinct seasonal avoidance pattern (lower frequency in peak dry months), high shape regularity (lsm_c_circle_mn) and patch density, and low isolation variation. | Defined by high NDVI (biomass), pasture and other anthropic uses, and wet herbaceous vegetation (wetlands). Located in the edges of the Cerrado. | These are moisture-limited systems like wet grasslands and Veredas (palm swamps). They are too wet to burn during the early dry season and only become susceptible during specific drought windows, leading to fires that may follow linear landscape features (rivers), resulting in regular shapes. |
+| 5 | Frontier Interface | A transitional regime with variable and scattered fire activity. | Metrics are generally average or "messy," with high variability in isolation (lsm_c_enn_sd) and integrity variation. Mean core areas of fires are lower than average (lsm_c_core_mn). | Characterized by a mix of forest and agricultural land covers like soybean and temporary crops. | This corresponds to the agricultural frontier (e.g., Matopiba) or the Amazon-Cerrado ecotone. Fire activity here is driven by the interaction between deforestation/clearing fires and the remaining forest edges, resulting in a spatially heterogeneous pattern. |
+
+![](fire_regimes/heatmap_fire_mclust_parameter.png)
+
+![](fire_regimes/heatmap_fire_classes_land.png)
+
+## The Atlas
+
+Interact with the Atlas! To download the original rasters. Access the GitHub page. For more customizable downloads, see the Shiny App I created.
+
+```{r setup, include=FALSE}
+#| warning: false
+#| message: false
+
+library(leaflet)
+library(terra)
+library(viridis)
+library(htmlwidgets)
+library(leafem)
+library(scales)
+library(ggplot2)
+library(grid)
+library(cowplot) # For extracting legends
+
+# --- 1. CONFIGURATION ---
+
+global_file <- "Fire_Regimes_Global.tif"
+
+decade_files <- c(
+  "1985-1994" = "Fire_Regimes_1985_1994.tif",
+  "1995-2004" = "Fire_Regimes_1995_2004.tif",
+  "2005-2014" = "Fire_Regimes_2005_2014.tif",
+  "2015-2024" = "Fire_Regimes_2015_2024.tif"
+)
+
+# Frequency Files (Unified Scale)
+freq_files <- list(
+  "Frequency (Jan)" = "Fire_Freq_Jan.tif",
+  "Frequency (Feb)" = "Fire_Freq_Feb.tif",
+  "Frequency (Mar)" = "Fire_Freq_Mar.tif",
+  "Frequency (Apr)" = "Fire_Freq_Apr.tif",
+  "Frequency (May)" = "Fire_Freq_May.tif",
+  "Frequency (Jun)" = "Fire_Freq_Jun.tif",
+  "Frequency (Jul)" = "Fire_Freq_Jul.tif",
+  "Frequency (Aug)" = "Fire_Freq_Aug.tif",
+  "Frequency (Sep)" = "Fire_Freq_Sep.tif",
+  "Frequency (Oct)" = "Fire_Freq_Oct.tif",
+  "Frequency (Nov)" = "Fire_Freq_Nov.tif",
+  "Frequency (Dec)" = "Fire_Freq_Dec.tif"
+)
+
+# Other Metrics (Individual Scales)
+metric_files <- list(
+  "Integrity Var"    = "Fire_Integrity_Var.tif",
+  "Shape Regularity" = "Fire_Shape_Reg.tif",
+  "Internal Heterog" = "Fire_Internal_Heterog.tif",
+  "Isolation Var"    = "Fire_Isolation_Var.tif",
+  "Density"          = "Fire_Density.tif",
+  "Fragmentation"    = "Fire_Fragmentation.tif"
+)
+
+# The file contains a list: $states, $munis, $ucs, $tis
+vectors <- readRDS("vectors_cerrado.rds")
+
+# --- 2. DATA PROCESSING ---
+
+load_metric <- function(f) {
+  if(!file.exists(f)) return(NULL)
+  r <- rast(f)
+  project(r, "EPSG:3857", method = "bilinear")
+}
+
+# A. Load Regimes
+r_global <- rast(global_file) %>% project("EPSG:3857", method="near")
+r_decades <- lapply(decade_files, function(f) rast(f) %>% project("EPSG:3857", method="near"))
+
+# B. Load Frequency (Linear Scale)
+r_freq_list <- list()
+freq_min <- Inf
+freq_max <- -Inf
+
+for(name in names(freq_files)) {
+  r <- load_metric(freq_files[[name]])
+  if(!is.null(r)) {
+    r_freq_list[[name]] <- r
+    # Update Global Range
+    mm <- minmax(r)
+    if(all(is.finite(mm))) {
+      freq_min <- min(freq_min, mm[1])
+      freq_max <- max(freq_max, mm[2])
+    }
+  }
+}
+# Define Unified Palette for Frequency
+freq_domain <- c(freq_min, freq_max)
+pal_freq_unified <- colorNumeric("magma", domain = freq_domain, na.color = "transparent")
+
+# C. Load Other Metrics (Log Scale)
+r_other_list <- lapply(metric_files, function(f) {
+  r <- load_metric(f)
+  if(!is.null(r)) log1p(r) else NULL
+})
+
+# D. Regime Palette
+pal_regime <- colorFactor(palette = viridis(5, option = "turbo"), domain = 1:5, na.color = "transparent")
+
+# --- 3. HELPER TO CREATE GGPLOT LEGENDS ---
+get_legend_plot <- function(type, title, domain, palette_name, log=FALSE) {
+  
+  if (type == "categorical") {
+    df <- data.frame(x=1:5, y=1, val=factor(1:5))
+    p <- ggplot(df, aes(x=x, y=y, fill=val)) +
+      geom_tile() +
+      scale_fill_viridis_d(option=palette_name, name=title) +
+      theme_void() +
+      theme(legend.position="bottom", 
+            legend.title = element_text(face="bold", size=10),
+            legend.text = element_text(size=8))
+  } else {
+    # Continuous
+    df <- data.frame(x = seq(domain[1], domain[2], length.out = 100), y = 1)
+    p <- ggplot(df, aes(x=x, y=y, fill=x)) +
+      geom_tile() +
+      scale_fill_viridis_c(option=palette_name, name=title,
+                           breaks = pretty(domain, n=4),
+                           labels = if(log) function(x) round(expm1(x), 1) else waiver()) +
+      theme_void() +
+      theme(legend.position="bottom", 
+            legend.title = element_text(face="bold", size=10),
+            legend.text = element_text(size=8),
+            legend.key.width = unit(1, "cm"))
+  }
+  return(get_legend(p))
+}
+
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| column: screen-inset
+#| out-width: "100%"
+#| out-height: "850px"
+
+# 1. Initialize Map
+map <- leaflet() %>%
+  addProviderTiles(providers$CartoDB.Positron, group = "Base: Light") %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "Base: Satellite") %>%
+  setView(lng = -50, lat = -15, zoom = 5)
+
+# --- LAYERS (Rasters) ---
+
+# A. Global
+if(!is.null(r_global)) {
+  map <- map %>%
+    addRasterImage(r_global, colors = pal_regime, opacity = 0.8, 
+                   group = "Global Model", layerId = "GlobalLayer",
+                   method = "ngb", maxBytes = 20*1024*1024) %>%
+    addImageQuery(r_global, group = "Global Model", layerId = "GlobalLayer",
+                  digits = 0, prefix = "Regime", position = "topright")
+}
+
+# B. Decades
+for(name in names(r_decades)) {
+  map <- map %>% addRasterImage(r_decades[[name]], colors = pal_regime, opacity = 0.8, 
+                                group = name, method = "ngb", maxBytes = 20*1024*1024)
+}
+
+# C. Frequency
+for(name in names(r_freq_list)) {
+  map <- map %>% addRasterImage(r_freq_list[[name]], colors = pal_freq_unified, opacity = 0.7, 
+                                group = name, maxBytes = 15*1024*1024)
+}
+
+# D. Metrics
+for(name in names(r_other_list)) {
+  r <- r_other_list[[name]]
+  if(!is.null(r)) {
+    mm <- minmax(r)
+    rng <- c(mm[1], mm[2])
+    pal_ind <- colorNumeric("magma", domain = rng, na.color = "transparent")
+    map <- map %>% addRasterImage(r, colors = pal_ind, opacity = 0.7, group = name, maxBytes = 15*1024*1024)
+  }
+}
+
+# --- VECTORS (New Section) ---
+
+# E. Conservation Units (Green Borders)
+if(!is.null(vectors$ucs)) {
+  map <- map %>% 
+    addPolygons(data = vectors$ucs, 
+                color = "#00ff00",       # Bright Green
+                weight = 1.5,            # Thin line
+                fill = TRUE,
+                fillOpacity = 0, # Hollow (see through to regimes)
+                fillColor = 'transparent', # Hollow
+                group = "Conservation Units",
+                label = ~name_conservation_unit, # Hover text
+                highlightOptions = highlightOptions(weight = 3, 
+                                                    color = "white", 
+                                                    bringToFront = TRUE))
+}
+
+# F. Indigenous Lands (Orange Borders)
+if(!is.null(vectors$tis)) {
+  map <- map %>% 
+    addPolygons(data = vectors$tis, 
+                color = "#ffae00",       # Bright Orange
+                weight = 1.5,
+                fill = TRUE,
+                fillOpacity = 0,
+                fillColor = 'transparent', # Hollow
+                group = "Indigenous Lands",
+                label = ~terrai_nom, # Hover text
+                highlightOptions = highlightOptions(weight = 3, 
+                                                    color = "white", 
+                                                    bringToFront = TRUE))
+}
+
+
+# --- CONTROLS ---
+
+# Add the new groups to the list
+all_groups <- c("Global Model", 
+                "Conservation Units", "Indigenous Lands", # Add them here
+                names(r_decades), names(r_freq_list), names(r_other_list))
+
+map <- map %>%
+  addLayersControl(
+    baseGroups = c("Base: Light", "Base: Satellite"),
+    overlayGroups = all_groups,
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+  # Hide everything except Global initially (Keep map clean)
+  hideGroup(c(names(r_decades), names(r_freq_list), names(r_other_list), 
+              "Conservation Units", "Indigenous Lands")) %>% 
+  showGroup("Global Model")
+
+map
+```
+
+### Map Legends
+
+::: {layout-ncol="2"}
+```{r legend_regime}
+#| echo: false
+#| fig-height: 1.5
+#| fig-width: 4
+
+# 1. Regime Legend
+p <- get_legend_plot("categorical", "Fire Regime Classes", c(1,5), "turbo")
+grid.newpage()
+grid.draw(p)
+
+#| echo: false
+#| fig-height: 1.5
+#| fig-width: 4
+
+# 2. Frequency Legend (Linear)
+p <- get_legend_plot("continuous", "Fire Frequency (0-100%)", freq_domain, "magma", log=FALSE)
+grid.newpage()
+grid.draw(p)
+```
+:::
+
+Metric Legends
+
+::: {layout-ncol="3"}
+```{r}
+#| echo: false
+#| fig-height: 1.2
+#| fig-width: 4
+#| output: asis
+
+# Loop to generate specific legends for the other metrics
+for(name in names(r_other_list)) {
+  r <- r_other_list[[name]]
+  
+  if(!is.null(r)) {
+    # Calculate min/max for this metric
+    mm <- minmax(r)
+    
+    # Generate the plot object
+    p_leg <- get_legend_plot("continuous", name, c(mm[1], mm[2]), "magma", log=TRUE)
+    
+    # Print it as a separate plot for the layout
+    # We use grid.draw to ensure it renders cleanly in the loop
+    cat("\n") # Ensure separation
+    grid.newpage()
+    grid.draw(p_leg)
+    cat("\n")
+  }
+}
+```
+:::
