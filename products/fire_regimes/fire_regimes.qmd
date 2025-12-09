@@ -3,6 +3,7 @@ title: "Cerrado Fire Regimes Atlas"
 description: "An interactive analysis of 40 years of fire history in a high resolution scale"
 author: "Heitor Sousa"
 date: "2025-12-09"
+image: "map_screenshot.png" # Optional: Thumbnail image for the grid
 categories: [R, Fire Ecology, Spatial Analysis, leaflet] # Tags
 format: 
   html:
@@ -33,7 +34,7 @@ This product is an integration of different fire metrics derived from the monthl
 The selected metrics include:
 
 |  |  |  |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Metric Type** | **Metric Name** | **Ecological Interpretation (What it Measures)** |
 | Fire Abundance | Fire Scar Density | Measures the number of individual fire scars per unit of area. It reflects ignition patterns and landscape constraints on fire spread. High values suggest frequent ignitions or a fragmented landscape that prevents scars from becoming large. Low values indicate fewer, potentially larger fire events. |
 | Fire Configuration | Fire Scar Fragmentation | Measures how the total burned area is broken up into separate, smaller scars. It reflects the continuity of fuel and burn conditions. A high value indicates a highly fragmented burned landscape, suggesting discontinuous fuels or varied fire behavior. A low value points to a few large, contiguous fire scars. |
@@ -55,7 +56,7 @@ The selected metrics include:
 We crossed the fire regime classification with land use information and the fire metrics that predicted them. Here is a summary of the fire regimes characteristics:
 
 |  |  |  |  |  |  |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | Fire Regime | Name | Description | Fire Metrics | Landscape context | Socioecological interpretation |
 | 1 | Anthropogenic Suppression | This regime is characterized by very rare and suppressed fire activity. | All fire metrics (frequency, density, size) are below average (blue in the heatmap), except for fire shape regularity and fragmentation. | Dominated by pasture, sugar cane, and areas with high population density and anthropic use. | This represents the consolidated agricultural matrix where fire is actively suppressed to protect assets (crops, infrastructure) and due to the lack of continuous flammable vegetation. |
 | 2 | Grassland Wildfire | This regime features infrequent but large and intense wildfires. | Characterized by high mean core area (lsm_c_core_mn) and core variability (lsm_c_dcore_sd), indicating large, continuous burn scars when fires do occur. Monthly frequency is generally low or average, but relatively higher in September (late dry season). | Associated with native open (grasslands, savannas) and native vegetation areas with low population density. | These are likely large natural remnants or protected areas where fuel accumulates over longer periods. When fires occur, the continuous grassy fuel allows them to spread extensively, creating large, solid scars. |
