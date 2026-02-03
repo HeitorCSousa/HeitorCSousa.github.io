@@ -14,69 +14,96 @@ format:
 
 # Introduction
 
-This product is an integration of different fire metrics derived from the monthly [MapBiomas Fire](https://brasil.mapbiomas.org/en/mapbiomas-fogo/) product in a landscape scale (\~9 km).
+The **Cerrado Fire Regimes Atlas** integrates multiple fire metrics derived from the monthly [MapBiomas Fire](https://brasil.mapbiomas.org/en/mapbiomas-fogo/) product to characterize fire regimes at the landscape scale (\~9 km grid cells) across the Brazilian Cerrado.
+
+Rather than mapping fire as isolated events, this atlas describes **recurring fire regimes**—coherent patterns of fire frequency, seasonality, size, and spatial configuration that emerge over time from interactions among climate, vegetation, land use, and fire management.
+
+Using 40 years of fire history (1985–2024) and analytical approaches from **landscape ecology** and **machine learning**, the atlas provides a spatially explicit, biome-wide classification of fire regimes and their temporal dynamics.
 
 ## **Goal of the Product**
 
-The **Cerrado Fire Regimes Atlas** is designed as a strategic resource for **fire ecologists, pyrogeographers**, environmental managers, and policymakers.
+The **Cerrado Fire Regimes Atlas** is designed as a strategic resource for **fire ecologists, pyrogeographers, environmental managers, and policymakers**.
 
-While traditional monitoring systems focus on *where* and *when* fire occurs (burned area), this project aims to decipher the complex **pyrogeography** of the biome. By analyzing 40 years of historical data (MapBiomas Fire, 1985-2024) through the lens of Landscape Ecology and Machine Learning, this atlas provides a structural classification of fire activity.
+While most fire-monitoring systems emphasize *where* and *when* fires occur (burned area or active fires), this product focuses on *how fires are organized in space and time*. By moving beyond binary burned/unburned representations, the atlas supports a deeper understanding of the **pyrogeography** of the Cerrado.
 
 **Primary Objectives:**
 
--   **Advance Pyrogeographical Understanding:** To support the scientific community in moving beyond binary "burned/unburned" analyses by quantifying distinct **Fire Regimes**—recurring patterns of frequency, seasonality, size, and shape—that drive ecosystem dynamics.
+-   **Advance pyrogeographical understanding**
 
--   **Distinguish Natural vs. Anthropogenic Fire:** To differentiate between the natural, ecological fire cycles of the open savannas (Regime 3) and the anthropogenic, degradation-driven fires at the agricultural frontier (Regime 5).
+To support scientific analyses that move beyond single fire metrics by identifying distinct **fire regimes**—recurrent patterns of fire frequency, seasonality, size, and spatial configuration that shape ecosystem dynamics.
 
--   **Track Regime Shifts:** To visualize where fire regimes are changing over time (e.g., areas shifting from natural cycles to suppression or intensification) due to land use change and climate variability.
+-   **Distinguish anthropogenic and fire-dependent systems**
 
--   **Support Conservation Planning:** To identify priority areas where the current fire regime diverges from the historical baseline, guiding prescribed burning or suppression efforts.
+To differentiate fire regimes associated with open, fire-dependent savannas from regimes shaped by land-use change, suppression, or agricultural expansion.
+
+-   **Track regime shifts through time**
+
+To visualize where and how fire regimes have reorganized over recent decades, including transitions associated with land-use change and climate variability.
+
+-   **Support conservation and fire planning**
+
+To identify areas where current fire regimes diverge from historical patterns, informing priorities for prescribed burning, fire suppression, or adaptive management.
 
 ------------------------------------------------------------------------
 
 ## **What this Product is NOT**
 
-It is equally important to understand the limitations of this tool to ensure its appropriate application.
+Understanding the limitations of this atlas is essential for its appropriate use.
 
--   🚫 **It is NOT a Fire Intensity or Severity Map:** This atlas classifies regimes based on the **spatiotemporal structure** of fire scars (e.g., frequency, seasonality, patch shape, fragmentation). It does not directly measure **Fire Radiative Power (FRP)** or spectral indices of burn severity (e.g., dNBR).
+-   🚫 **Not a fire intensity or burn severity map**
 
-    -   *Note:* While structural metrics like **Mean Core Area** are often strongly correlated with intensity (larger, more solid fires tend to burn hotter), this tool infers regime characteristics from pattern, not from direct energy measurements.
+This product classifies fire regimes based on the **spatiotemporal structure of fire scars** (e.g., frequency, seasonality, patch size, fragmentation). It does not directly measure fire intensity or severity, such as Fire Radiative Power (FRP) or spectral indices (e.g., dNBR).
 
--   🚫 **It is NOT a Real-Time Alert System:** This tool does not detect fires happening *today*. For active fire monitoring and emergency response, please refer to the operational systems provided by **INPE (Queimadas)** or **NASA FIRMS**.
+*Note:* Some structural metrics (e.g., mean core area) may correlate with fire intensity, but regime classification is inferred from spatial patterns rather than direct energy measurements.
 
--   🚫 **It is NOT a Fire Spread Model:** It classifies historical patterns. It does not simulate the physics of fire spread for specific ignition events based on current weather conditions.
+-   🚫 **Not a real-time fire alert system**
 
--   🚫 **It is NOT a Future Forecast:** While it visualizes historical trajectories (1985–2024), it describes the *state* of the fire regime, not the *probability* of next year's fire.
+The atlas does not detect active fires. For operational fire monitoring and emergency response, refer to **INPE Queimadas** or **NASA FIRMS**.
+
+-   🚫 **Not a fire spread or behavior model**
+
+This product does not simulate fire spread under specific weather or ignition scenarios. It summarizes historical fire patterns rather than modeling fire physics.
+
+-   🚫 **Not a future fire forecast**
+
+Although long-term trends and regime trajectories are visualized, the atlas describes the *state* and *history* of fire regimes—not the probability of fires in future years.
 
 ## Data Sources and Processing
 
 ### Fire Occurrence and Metrics
 
-| Source: Monthly burned area data from MapBiomas Fogo Collection 4 (1985-2024), which provides 30m resolution mapping of fire scars across Brazil.
+| **Source**
+| Monthly burned-area maps from **MapBiomas Fogo Collection 4** (1985–2024), derived at 30 m spatial resolution across Brazil.
 
-### Processing
+### Processing Workflow
 
--   Fire Scars: Individual fire events were identified from the monthly data in a 9 km- cells grid.
+-   **Fire scars**
 
--   Landscape Metrics: For each fire scar, a suite of landscape metrics was calculated to characterize its spatial pattern. To ensure statistical robustness, variable selection was performed to remove highly collinear metrics (using VIF or correlation thresholds).
+Individual fire scars were identified from monthly burned-area maps and summarized within \~9 km grid cells.
 
--   Aggregation: The metrics were averaged over the entire study period (1985-2024) and also aggregated by decade to capture temporal trends.
+-   **Landscape metrics**
+
+For each fire scar, a set of landscape metrics was calculated to characterize spatial properties such as size, shape, fragmentation, isolation, and interior structure. Highly collinear metrics were removed using variance inflation factor (VIF) and correlation thresholds to ensure statistical robustness.
+
+-   **Temporal aggregation**
+
+Fire metrics were averaged across the full study period (1985–2024) to represent long-term regime characteristics and aggregated by decade to capture temporal reorganization of fire regimes.
 
 ### Final Metrics
 
 The selected metrics include:
 
-|  |  |  |
-|------------------------|------------------------|------------------------|
-| **Metric Type** | **Metric Name** | **Ecological Interpretation (What it Measures)** |
-| Fire Abundance | Fire Scar Density | Measures the number of individual fire scars per unit of area. It reflects ignition patterns and landscape constraints on fire spread. High values suggest frequent ignitions or a fragmented landscape that prevents scars from becoming large. Low values indicate fewer, potentially larger fire events. |
-| Fire Configuration | Fire Scar Fragmentation | Measures how the total burned area is broken up into separate, smaller scars. It reflects the continuity of fuel and burn conditions. A high value indicates a highly fragmented burned landscape, suggesting discontinuous fuels or varied fire behavior. A low value points to a few large, contiguous fire scars. |
-| Fire Scar Shape | Fire Scar Shape Regularity | Describes how compact or convoluted fire scar shapes are on average. It's an indicator of how uniformly fire spreads. Values closer to 1 indicate simple, compact scars, typical of fires in uniform fuel with no wind. Values closer to 0 indicate highly irregular shapes, presumably driven by wind, topography, or fuel heterogeneity. |
-| Fire Configuration | Fire Scar Isolation Variation | Measures the variability in the distance between a fire scar and its nearest neighboring scar. It describes the spatial clustering of fire activity. A high value suggests an uneven spatial pattern where some scars are tightly clustered while others are very isolated. A low value indicates that fire scars are more evenly spaced. |
-| Fire Scar Interior | Mean Fire Scar Core Size | Measures the average size of the "core" or interior area of fire scars, buffered from the unburned edge. It represents the average extent of uninterrupted, high-intensity burning. Larger values indicate larger, more completely burned scars, while smaller values suggest smaller or narrower scars with more edge influence. |
-| Fire Scar Interior | Fire Scar Integrity Variation | Measures the variability in the proportion of each fire scar that is considered "core" area. It captures the consistency of burn completeness across different scars. A high value indicates a mix of scar types: some are solid with large cores, while others are "hollow" or linear with very little core area. |
-| Fire Scar Interior | Fire Scar Cohesion Variation | Measures the variability in the internal fragmentation of individual fire scars. Specifically, it quantifies the variation in the number of disjunct core zones within fire patches. A high value indicates a landscape with heterogeneous fire behaviors, where some scars are solid and cohesive (single core) while others are structurally complex and broken into multiple disjoint interiors (multiple cores). |
-| Fire frequency | Fire occurrence (monthly) | Measures if the cell was burned or not (binary, 0 or 1). When averaged across years, represents the proportion of years a pixel burned in each month (Jan-Dec). |
+|  |  |  |  |
+|-------------|-------------|-------------------|--------------------|
+| **Metric Type** | **Metric Name** | **What the metric measures** | **Potential ecological relevance** |
+| Fire Frequency | Fire Occurrence | Indicates whether a grid cell experienced fire during the observation period (binary: burned vs. unburned). When aggregated in space or time, it represents the probability of fire occurrence, independent of fire size, shape, or spatial configuration. High values: fire occurs frequently in the same location through time. Low values: fire is rare or absent in the landscape. | Reflects exposure of ecosystems to fire disturbance and helps identify areas subject to repeated burning versus long-term fire exclusion. |
+| Fire Frequency | Fire Density | Measures the number of distinct fire scars per unit area (100 ha), quantifying how burned area is partitioned into discrete fire events. High values: many separate fire scars occur within a given area. Low values: fewer fire scars occur within the same area, regardless of their size. | Indicates how fire activity is partitioned across the landscape, which may influence disturbance frequency experienced by organisms and vegetation patches. |
+| Fire Scar Geometry | Fire Shape Regularity | Describes the average geometric regularity of fire scar shapes. High values (closer to 1): fire scars tend to be compact and geometrically simple. Low values: fire scars exhibit irregular or complex shapes. | Describes variability in fire spread geometry, which may influence edge effects and spatial heterogeneity of post-fire environments. |
+| Fire Spatial Configuration | Fire Fragmentation | Measures the degree to which total burned area is subdivided among multiple fire scars. High values: burned area is distributed among many separate scars. Low values: burned area is concentrated into fewer contiguous scars. | Captures spatial continuity of fire, with potential implications for habitat connectivity, recovery processes, and landscape-level disturbance patterns. |
+| Fire Spatial Configuration | Fire Isolation Variation | Quantifies variability in the distance between fire scars and their nearest neighboring scar. High values: fire scars show heterogeneous spacing, with a mix of clustered and isolated scars. Low values: fire scars are more uniformly spaced across the landscape. | Reflects heterogeneity in the spatial arrangement of fire events, which may influence recolonization dynamics and movement across burned landscapes. |
+| Fire Scar Interior | Mean Fire Core Size | Measures the average area of interior (core) regions within fire scars, defined as burned areas buffered from unburned edges. High values: fire scars contain large interior zones distant from edges. Low values: fire scars are dominated by edge-influenced areas with limited interior. | Indicates the extent of uninterrupted interior burning, potentially affecting microclimatic conditions and persistence of interior post-fire habitats. |
+| Fire Scar Interior | Fire Integrity Variation | Measures the variability among fire scars in the proportion of area classified as interior (core). High values: fire scars differ strongly in interior development. Low values: fire scars have similar proportions of interior area. | Describes heterogeneity in burn completeness, which may influence the predictability of interior habitat availability across the landscape. |
+| Fire Scar Interior | Fire Cohesion Variation | Quantifies variability among fire scars in the number of disjoint interior core regions. High values: landscapes where some fire scars are internally cohesive (single core), while others are strongly perforated by unburned inclusions, resulting in multiple disjoint cores. Low values: fire scars exhibit similar internal cohesion. | Captures variability in internal connectivity of burned areas, which may affect continuity of post-fire habitats and movement within burned patches. |
 
 ### Classification Method of Fire Regimes
 
@@ -88,22 +115,20 @@ The selected metrics include:
 
 We crossed the fire regime classification with land use information and the fire metrics that predicted them. Here is a summary of the fire regimes characteristics:
 
-|  |  |  |  |  |  |
-|------------|------------|------------|------------|------------|------------|
-| Fire Regime | Name | Description | Fire Metrics | Landscape context | Socioecological interpretation |
-| 1 | Anthropogenic Suppression | This regime is characterized by very rare and suppressed fire activity. | All fire metrics (frequency, density, size) are below average (blue in the heatmap), except for fire shape regularity and fragmentation. | Dominated by pasture, and agricultural areas with high population density and anthropic use. | This represents the consolidated agricultural matrix where fire is actively suppressed to protect assets (crops, infrastructure) and due to the lack of continuous flammable vegetation. |
-| 2 | Grassland Wildfire | This regime features infrequent but large and intense wildfires. | Characterized by high mean core area (lsm_c_core_mn) and core variability (lsm_c_dcore_sd), indicating large, continuous burn scars when fires do occur. Monthly frequency is generally low or average, but relatively higher in September (late dry season). | Associated with native open (grasslands, savannas, wet herbaceous) and native vegetation areas with low population density. However, these areas commonly share the use for temporary crops. | These are likely large natural remnants or protected areas where fuel accumulates over longer periods. When fires occur, the continuous grassy fuel allows them to spread extensively, creating large, solid scars. |
-| 3 | Pyrophilic Savanna | This is the most active fire regime, characterized by frequent, fragmented burning throughout the year. | High values for fire density (lsm_c_pd), isolation variation (lsm_c_enn_sd), cohesion variation, and fire frequency across almost all months (Jan-Dec). | Strongly dominated by savanna and grassland formations, with lowest population density and antropic use. | This represents the core "fire-prone" savanna biome. The high frequency and fragmentation reflect the natural flammability of the vegetation and potentially the influence of human ignitions that are frequent but spatially limited by the mosaic of fuel types. |
-| 4 | High-Biomass Ecotone | A regime defined by seasonal constraints and high biomass. | Shows a distinct seasonal avoidance pattern (lower frequency in peak dry months), high shape regularity (lsm_c_circle_mn) and patch density, and low isolation variation. | Defined by high NDVI (biomass) and low native vegetation and moderate population density. Located in the edges of the Cerrado. | These are ecotonal systems, with low dominace of open formations (grasslands and savannas) and with significant antropic pressure and degradation. Fire scars are abundant, large in extent and with regular shapes. |
-| 5 | Frontier Interface | A transitional regime with variable and scattered fire activity, dominated by forest formation, mosaic uses and non vegetated areas. | Metrics are generally average or "messy," with high variability in isolation (lsm_c_enn_sd) and integrity variation. Mean core areas of fires are lower than average (lsm_c_core_mn). | Characterized by a mix of forest, mosaic uses, and non vegetated areas. Relatively high biomass (NDVI). | This corresponds to the agricultural frontier (e.g., Matopiba) or the Amazon-Cerrado ecotone. Fire activity here is driven by the interaction between deforestation/clearing fires and the remaining forest edges, resulting in a spatially heterogeneous pattern. |
+|  |  |  |  |  |
+|------|--------------|--------------------|-----------------|---------------------|
+| Fire Regime | Description | Fire Metrics | Landscape context | Socioecological interpretation |
+| 1 | This regime is characterized by very rare and suppressed fire activity. | All fire metrics (frequency, density, size) are below average (blue in the heatmap), except for fire shape regularity and fragmentation. | Dominated by pasture, and agricultural areas with high population density and anthropic use. | This represents the consolidated agricultural matrix where fire is actively suppressed to protect assets (crops, infrastructure) and due to the lack of continuous flammable vegetation. |
+| 2 | This regime features infrequent but large and intense wildfires. | Characterized by high mean core area (lsm_c_core_mn) and core variability (lsm_c_dcore_sd), indicating large, continuous burn scars when fires do occur. Monthly frequency is generally low or average, but relatively higher in September (late dry season). | Associated with native open (grasslands, savannas, wet herbaceous) and native vegetation areas with low population density. However, these areas commonly share the use for temporary crops. | These are likely large natural remnants or protected areas where fuel accumulates over longer periods. When fires occur, the continuous grassy fuel allows them to spread extensively, creating large, solid scars. |
+| 3 | This is the most active fire regime, characterized by frequent, fragmented burning throughout the year. | High values for fire density (lsm_c_pd), isolation variation (lsm_c_enn_sd), cohesion variation, and fire frequency across almost all months (Jan-Dec). | Strongly dominated by savanna and grassland formations, with lowest population density and antropic use. | This represents the core "fire-prone" savanna biome. The high frequency and fragmentation reflect the natural flammability of the vegetation and potentially the influence of human ignitions that are frequent but spatially limited by the mosaic of fuel types. |
+| 4 | A regime defined by seasonal constraints and high biomass. | Shows a distinct seasonal avoidance pattern (lower frequency in peak dry months), high shape regularity (lsm_c_circle_mn) and patch density, and low isolation variation. | Defined by high NDVI (biomass) and low native vegetation and moderate population density. Located in the edges of the Cerrado. | These are ecotonal systems, with low dominace of open formations (grasslands and savannas) and with significant antropic pressure and degradation. Fire scars are abundant, large in extent and with regular shapes. |
+| 5 | A transitional regime with variable and scattered fire activity, dominated by forest formation, mosaic uses and non vegetated areas. | Metrics are generally average or "messy," with high variability in isolation (lsm_c_enn_sd) and integrity variation. Mean core areas of fires are lower than average (lsm_c_core_mn). | Characterized by a mix of forest, mosaic uses, and non vegetated areas. Relatively high biomass (NDVI). | This corresponds to the agricultural frontier (e.g., Matopiba) or the Amazon-Cerrado ecotone. Fire activity here is driven by the interaction between deforestation/clearing fires and the remaining forest edges, resulting in a spatially heterogeneous pattern. |
 
-![](heatmap_fire_mclust_parameter.png)
-
-![](heatmap_fire_classes_land.png)
+![Heatmap summarizing the multivariate structure of the five fire regimes identified by Gaussian finite mixture modelling. Rows represent standardized fire regime metrics aggregated at 9-km grid resolution (monthly fire frequency, fire density, fragmentation, shape regularity, isolation variation, mean core size, integrity variation, and cohesion variation) and associated environmental and anthropogenic attributes (land-use and land-cover classes from MapBiomas, population density, and NDVI). Columns correspond to the five fire regimes. Colors indicate mean standardized (z-score) values for each variable within each regime, highlighting contrasts in fire activity, spatial organization, vegetation context, and human influence among regimes.](heatmap_fire_mclust_parameter.png)
 
 # The Atlas
 
-Interact with the Atlas! To download the original rasters. Access the GitHub or Zenodo pages (available soon). For more customizable downloads, see the Shiny App I created (available soon).
+Interact with the Atlas! To download the original rasters, access the [GitHub](https://github.com/HeitorCSousa/CerradoFireRegimes) or Zenodo pages (available soon). For more customizable downloads, see the [Shiny App](https://heitorcsousa.shinyapps.io/cerradofireregimes_dss) I created.
 
 ```{r setup, include=FALSE}
 #| warning: false
@@ -277,7 +302,7 @@ for(name in names(r_other_list)) {
   if(!is.null(r)) {
     mm <- minmax(r)
     rng <- c(mm[1], mm[2])
-    pal_ind <- colorNumeric("magma", domain = rng, na.color = "transparent")
+    pal_ind <- colorNumeric("viridis", domain = rng, na.color = "transparent")
     map <- map %>% addRasterImage(r, colors = pal_ind, opacity = 0.7, group = name, maxBytes = 15*1024*1024)
   }
 }
@@ -356,7 +381,7 @@ grid.draw(p)
 #| fig-width: 4
 
 # 2. Frequency Legend (Linear)
-p <- get_legend_plot("continuous", "Fire Frequency (0-1)", freq_domain, "magma", log=FALSE)
+p <- get_legend_plot("continuous", "Fire Frequency (0-1)", freq_domain, "viridis", log=FALSE)
 grid.newpage()
 grid.draw(p)
 ```
@@ -380,7 +405,7 @@ for(name in names(r_other_list)) {
     mm <- minmax(r)
     
     # Generate the plot object
-    p_leg <- get_legend_plot("continuous", name, c(mm[1], mm[2]), "magma", log=TRUE)
+    p_leg <- get_legend_plot("continuous", name, c(mm[1], mm[2]), "viridis", log=TRUE)
     
     # Print it as a separate plot for the layout
     # We use grid.draw to ensure it renders cleanly in the loop
