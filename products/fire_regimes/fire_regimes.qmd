@@ -94,7 +94,7 @@ Fire metrics were averaged across the full study period (1985–2024) to represe
 The selected metrics include:
 
 |  |  |  |  |
-|-------------|-------------|-------------------|--------------------|
+|-----------------|-----------------|-------------------|--------------------|
 | **Metric Type** | **Metric Name** | **What the metric measures** | **Potential ecological relevance** |
 | Fire Frequency | Fire Occurrence | Indicates whether a grid cell experienced fire during the observation period (binary: burned vs. unburned). When aggregated in space or time, it represents the probability of fire occurrence, independent of fire size, shape, or spatial configuration. High values: fire occurs frequently in the same location through time. Low values: fire is rare or absent in the landscape. | Reflects exposure of ecosystems to fire disturbance and helps identify areas subject to repeated burning versus long-term fire exclusion. |
 | Fire Frequency | Fire Density | Measures the number of distinct fire scars per unit area (100 ha), quantifying how burned area is partitioned into discrete fire events. High values: many separate fire scars occur within a given area. Low values: fewer fire scars occur within the same area, regardless of their size. | Indicates how fire activity is partitioned across the landscape, which may influence disturbance frequency experienced by organisms and vegetation patches. |
@@ -116,7 +116,7 @@ The selected metrics include:
 We crossed the fire regime classification with land use information and the fire metrics that predicted them. Here is a summary of the fire regimes characteristics:
 
 |  |  |  |  |  |
-|------|--------------|--------------------|-----------------|---------------------|
+|--------------|--------------|---------------|--------------|----------------|
 | Fire Regime | Description | Fire Metrics | Landscape context | Socioecological interpretation |
 | 1 | This regime is characterized by very rare and suppressed fire activity. | All fire metrics (frequency, density, size) are below average (blue in the heatmap), except for fire shape regularity and fragmentation. | Dominated by pasture, and agricultural areas with high population density and anthropic use. | This represents the consolidated agricultural matrix where fire is actively suppressed to protect assets (crops, infrastructure) and due to the lack of continuous flammable vegetation. |
 | 2 | This regime features infrequent but large and intense wildfires. | Characterized by high mean core area (lsm_c_core_mn) and core variability (lsm_c_dcore_sd), indicating large, continuous burn scars when fires do occur. Monthly frequency is generally low or average, but relatively higher in September (late dry season). | Associated with native open (grasslands, savannas, wet herbaceous) and native vegetation areas with low population density. However, these areas commonly share the use for temporary crops. | These are likely large natural remnants or protected areas where fuel accumulates over longer periods. When fires occur, the continuous grassy fuel allows them to spread extensively, creating large, solid scars. |
@@ -216,7 +216,7 @@ for(name in names(freq_files)) {
 }
 # Define Unified Palette for Frequency
 freq_domain <- c(freq_min, freq_max)
-pal_freq_unified <- colorNumeric("magma", domain = freq_domain, na.color = "transparent")
+pal_freq_unified <- colorNumeric("viridis", domain = freq_domain, na.color = "transparent")
 
 # C. Load Other Metrics (Log Scale)
 r_other_list <- lapply(metric_files, function(f) {
