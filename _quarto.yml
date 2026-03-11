@@ -5,6 +5,7 @@ project:
 website:
   title: "Heitor C. Sousa"
   google-analytics: "G-FSNLDZW8VR"
+  site-url: "https://heitorcsousa.github.io"
   navbar:
     left:
       - href: index.qmd

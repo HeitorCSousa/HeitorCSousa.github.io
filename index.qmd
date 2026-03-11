@@ -1,6 +1,7 @@
 ---
 title: "Dr. Heitor Campos de Sousa"
 subtitle: "Post-Doc Researcher"
+description: "Personal website of Dr. Heitor Campos de Sousa, Environmental Scientist and Post-Doc Researcher specialized in ecology, zoology, and biodiversity conservation."
 resources: references.bib CV_HeitorCSousa_En.pdf
 about: 
   template: solana
@@ -42,7 +43,7 @@ page-navigation: false
 
 \
 \
-I'm Heitor C. Sousa. I am currently as a post-doc researcher at the [Herpetological Collection](https://chunb.org) from the [University of Brasília](https://www.unb.br). I have experience in biodiversity inventories, ecological and ecophysiological studies of amphibians and reptiles. I'm generally interested in ecology and evolution of animals, especially from Neotropical ecosystems, such as the dry seasonal forests (*Caatinga*), the Brazilian Cerrado savannas, and the Amazon rainforests. My research particularly focuses on fire ecology, biodemography (population ecology), and global climate change. I'm a highly quantitative-oriented ecologist, using statistical models to address applied problems related to sustainability and biological conservation.
+I'm Heitor C. Sousa. I am currently working as a post-doc researcher at the [Herpetological Collection](https://chunb.org) from the [University of Brasília](https://www.unb.br). I have experience in biodiversity inventories, ecological and ecophysiological studies of amphibians and reptiles. I'm generally interested in ecology and evolution of animals, especially from Neotropical ecosystems, such as the dry seasonal forests (*Caatinga*), the Brazilian Cerrado savannas, and the Amazon rainforests. My research particularly focuses on fire ecology, biodemography (population ecology), and global climate change. I'm a highly quantitative-oriented ecologist, using statistical models to address applied problems related to sustainability and biological conservation.
 
 \
 
