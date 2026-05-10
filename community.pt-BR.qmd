@@ -1,0 +1,48 @@
+---
+title: "Biogeografia"
+format: html
+website:
+  template: jolla
+bibliography: references.bib
+---
+
+\
+A biogeografia é o estudo de como a vida se distribui no espaço e no tempo. Ela investiga por que espécies, comunidades e ecossistemas ocorrem onde ocorrem — desvendando os papéis do clima, da geologia, da história evolutiva e da atividade humana na modelagem dos padrões de biodiversidade.\
+
+![](research/Globe.jpeg){fig-align="center" width="400"}
+
+### **Questões fundamentais que investigo**
+
+-   Como as espécies respondem a gradientes ambientais (microclima e vegetação)?
+
+<!-- -->
+
+-   Quais processos espaciais e temporais são mais importantes para a dinâmica de populações e assembleias?
+
+-   Como as espécies respondem a distúrbios ambientais, como o clima e o fogo?
+
+Utilizo modelos geoespaciais, demográficos e de distribuição de espécies para compreender os nichos e as dinâmicas das áreas de distribuição das espécies. Por meio desta abordagem integrada, investigo como processos espaciais e temporais afetam a ocorrência das espécies e a biodiversidade, unindo ecologia, geografia e biologia evolutiva. Meu trabalho contribui para o enfrentamento das seis principais lacunas (*shortfalls*) do conhecimento da biodiversidade (@hortal2015):
+
+1.  **Lineana:** espécies desconhecidas.
+
+2.  **Wallaceana:** distribuição geográfica desconhecida.
+
+3.  **Prestoniana:** dinâmica populacional desconhecida.
+
+4.  **Darwiniana:** relações evolutivas desconhecidas.
+
+5.  **Raunkiæriana:** traços funcionais e funções ecológicas desconhecidas.
+
+6.  **Hutchinsoniana:** nichos desconhecidos.
+
+### **Porque isso importa**
+
+Essas lacunas destacam a natureza interdisciplinar da biogeografia, exigindo a integração da genômica, ecologia, ciências sociais e ciência do clima. Abordá-las é urgente para:
+
+-   **Conservação:** Proteger espécies que ainda possuem dados incompletos de traços funcionais ou de distribuição.
+
+-   **Políticas Públicas:** Fundamentar tomadas de decisão em evidências ecológicas e sociais robustas.
+
+-   **Descoberta:** Revelar a biodiversidade oculta (ex: espécies crípticas) e processos ecológicos fundamentais.
+
+[Cheque minhas publicações relacionadas à biogeografia aqui.](publications.qmd)

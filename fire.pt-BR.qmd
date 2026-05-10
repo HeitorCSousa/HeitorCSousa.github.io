@@ -1,0 +1,30 @@
+---
+title: "Pirogeografia"
+format: html
+website:
+  template: jolla
+---
+
+\
+\
+A pirogeografia é um campo interdisciplinar que examina os padrões espaciais e temporais, os processos e os impactos do fogo nas paisagens da Terra. Ao unir as ciências biológicas, físicas e sociais, a pirogeografia busca desvendar o duplo papel do fogo como um processo natural e um artefato cultural.\
+
+![](research/Pyrogeo_Triangle.png){fig-align="center" width="400"}
+
+### Principais tópicos de investigação
+
+Atuo nos três segmentos da pirogeografia (biota, meio físico e sociedade), principalmente nas savanas do Cerrado brasileiro, uma região propensa ao fogo.
+
+-   **Nas ciências biológicas:** Utilizo lagartos como organismos-modelo para entender como diferentes regimes de fogo — padrões de frequência, intensidade e sazonalidade — afetam populações e comunidades naturais.
+
+-   **Nas ciências físicas:** Utilizo modelagem geoespacial para investigar os regimes de fogo e como as mudanças climáticas podem influenciá-los no futuro.
+
+-   **Nas ciências sociais:** Utilizo métodos de percepção ambiental (ex: análise de conteúdo) e modelagem para investigar como os seres humanos interagem com o fogo.
+
+### Por que isso é importante
+
+O fogo não é apenas uma força destrutiva — é um processo fundamental (*keystone process*) que mantém a biodiversidade, molda os ciclos biogeoquímicos e sustenta paisagens culturais. Compreender suas dimensões espaciais e humanas é vital para promover ecossistemas e sociedades resilientes em uma era de mudanças globais.
+
+Uma abordagem interdisciplinar é essencial para alcançar regimes de fogo sustentáveis em um mundo em constante transformação por meio do **Manejo Integrado do Fogo (MIF)**.\
+
+[Cheque minhas publicações relacionadas à pirogeografia aqui.](publications.qmd)

@@ -1,0 +1,142 @@
+---
+title: ""
+format: html
+website: 
+  template: solana
+  id: ppc
+page-navigation: true
+---
+
+::::: {#ppc}
+<div>
+
+# Δlter🌎ikos
+
+![](alteroikos/AlterOikos_Logo.png)
+
+<div>
+
+## **Ciência Integrativa para um Mundo em Transformação**
+
+</div>
+
+</div>
+
+# Sobre a Iniciativa
+
+A **Iniciativa AlterOikos** é um programa de pesquisa inovador e interdisciplinar dedicado a decifrar a complexidade da vida em sistemas sob transformação. Nosso propósito é integrar múltiplas dimensões do conhecimento biológico e social para compreender as engrenagens da resiliência planetária no Antropoceno.
+
+O nome — que une o latim *Alter* (mudança) ao grego *Oikos* (ecologia/casa) — sintetiza nossa filosofia: a mudança não é apenas um objeto de estudo, mas a lente através da qual interpretamos a natureza.
+
+### 🔎 **Fronteiras do Conhecimento**
+
+Nossa atuação é inerentemente transversal, transitando entre a teoria ecológica fundamental e a prática da conservação baseada em evidências. A iniciativa organiza-se em torno de três eixos científicos fundamentais:
+
+**1. Dinâmicas Eco-Evolutivas e Ecologia de Distúrbios**
+
+Investigamos os feedbacks bidirecionais entre processos ecológicos e evolutivos. Nosso foco reside em como distúrbios rápidos e intensos — como regimes de fogo e estresses térmicos — moldam a seleção natural, a plasticidade fenotípica e a persistência de populações e comunidades.
+
+**2. Biogeografia, Pirogeografia e Mudanças Climáticas**
+
+Exploramos a distribuição da vida e do fogo através do espaço e do tempo. Ao cruzar dados de mudanças climáticas com a história geográfica das paisagens, buscamos antecipar como as transformações globais rearranjam as fronteiras bióticas e os ciclos naturais de ecossistemas tropicais e de transição.
+
+**3. Manejo, Conservação e Dimensões Humanas**
+
+Entendemos que a conservação da biodiversidade é indissociável da realidade humana. Este eixo dedica-se ao manejo de recursos naturais e à **conservação social**, integrando as dimensões humanas e o engajamento público para garantir que a ciência se traduza em soluções socioambientais justas e eficazes.
+
+# 🏛️ **Estrutura Estratégica**
+
+## 🚀 **Missão**
+
+"Investigar as dinâmicas de mudança nos sistemas biológicos, integrando ecologia e evolução para compreender como a biodiversidade responde, se adapta e molda ambientes sob distúrbio."
+
+## 💡 **Visão**
+
+"Tornar-se uma referência internacional na ciência da mudança (Alter-Ecology), liderando pesquisas de vanguarda que conectam a teoria eco-evolutiva à conservação prática de ecossistemas tropicais."
+
+## 🎯 **Objetivos**
+
+-   **Decifrar Feedbacks:** Quantificar as interações *eco-to-evo* e *evo-to-eco* em populações e comunidades submetidas a gradientes ambientais e regimes de fogo.
+
+-   **Inovação Metodológica:** Desenvolver e aplicar ferramentas analíticas robustas (em R, Python e Sensoriamento Remoto) para dados de longa duração.
+
+-   **Formação de Lideranças:** Capacitar pesquisadores críticos e tecnicamente excepcionais, promovendo uma ciência diversa e colaborativa.
+
+-   **Ciência Aplicada:** Traduzir achados evolutivos em diretrizes estratégicas para o manejo e conservação da biodiversidade no Antropoceno.
+
+## ✨ **Valores (O DNA dos AlterOikados)**
+
+| Valores | **O que significa na prática?** |
+|----|----|
+| Rigor Científico | Aderência estrita ao método, transparência e busca pela verdade baseada em evidências. |
+| Adaptabilidade | Assim como os sistemas que estudamos, o grupo evolui e se ajusta a novos desafios e tecnologias. |
+| **Ciência Aberta** | Compromisso com a reprodutibilidade, compartilhamento de dados (Open Data) e códigos. |
+| **Inquietude Intelectual** | O desejo constante de "alterar" o status quo do conhecimento e fazer as perguntas difíceis. |
+| **Simetria de Saberes** | Valorização do conhecimento tradicional e local (indígenas, quilombolas, geraizeiros) como parceiro fundamental na ecologia do fogo e conservação. |
+| **Ciência Cidadã e Engajamento** | Compromisso em romper os muros da universidade, traduzindo dados em diálogos e envolvendo o público na construção do conhecimento. |
+| **Colaboração Radical** | Parcerias horizontais e transdisciplinares que buscam soluções integradas para problemas complexos. |
+
+# 
+Curiosidades
+
+## **Etimologia (origem do nome)**
+
+A escolha do nome ***AlterOikos*** é linguisticamente rica e carrega um peso acadêmico significativo, pois une duas das línguas fundadoras do pensamento científico: o **Latim** e o **Grego**.
+
+Aqui está a decomposição etimológica do nome:
+
+1.  O Prefixo: ***Alter*** (Latim)
+    -   **Origem:** Do latim *alter*, que significa "outro", "o outro de dois" ou "mudar".
+
+    -   **Significado Científico:** Na biologia e ecologia, remete ao conceito de \*\*alteração\*\* e \*\*modificação\*\*. É a raiz de palavras como "alternância" e "adulteração".
+
+    -   **Aplicação da Iniciativa:** Representa o foco central da nossa pesquisa: o **distúrbio**. O fogo e as mudanças ambientais antropogênicas são os agentes que **alteram** o estado original dos sistemas, forçando respostas fenotípicas e demográficas.
+2.  O Sufixo: ***Oikos*** (Grego)
+    -   **Origem:** Do grego antigo ***οἶκος*** (*oîkos*), que significa "casa", "residência", "patrimônio" ou "família".
+
+    -   **Significado Científico:** Esta é a raiz morfológica fundamental da palavra **Ecologia** (*Oikos* + *Logos* = o estudo da casa).
+
+    -   Aplicação da Iniciativa:\*\* Define o nosso cenário de estudo. Não se trata apenas de organismos isolados, mas do "lar" desses organismos — o ambiente, as interações e a estrutura do ecossistema.
+
+**A Síntese: "A Ecologia da Alteração"**
+
+Quando fundimos os dois termos, **AlterOikos** pode ser traduzido literalmente como **"A Casa Alterada"** ou, em uma interpretação mais acadêmica, **"Ecologia da Alteração"**.
+
+## **Conceito da identidade visual**
+
+A identidade visual do AlterOikos sintetiza, de forma minimalista, os processos centrais que estruturam nossa pesquisa: mudança ambiental, dinâmica ecológica e escala macrogeográfica.
+
+### Δ (Delta) — mudança e dinâmica ecológica
+
+![](alteroikos/Delta.png)
+
+O símbolo Δ, integrado à letra “A”, representa transformação.
+
+Na linguagem científica, o delta é amplamente utilizado para indicar variação — um conceito fundamental para compreender respostas ecológicas e evolutivas a distúrbios ambientais.
+
+Dentro do Δ, dois elementos estruturam essa ideia:
+
+-    Raios solares: indicam energia e renovação, remetendo aos ciclos naturais que sustentam os ecossistemas.
+
+-   Chamas: representa o fogo como processo ecológico — não apenas como distúrbio, mas como agente estruturador da biodiversidade.
+
+### O (Globo) — *oikos* e escala macrogeográfica
+
+![](alteroikos/O_Globo.png)
+
+O “O” de Oikos é representado como um globo, simbolizando o conceito de “casa” na ecologia — o sistema integrado onde organismos e ambiente interagem.
+
+A ênfase nas Américas reflete:
+
+\* o contexto geográfico das pesquisas
+
+\* a conexão com sistemas Neotropicais
+
+O anel externo sugere integridade e interconectividade entre sistemas ecológicos.
+
+Integração Δ–O
+
+![](alteroikos/A-O.png)
+
+A justaposição dos dois símbolos (Δ–O) expressa o núcleo conceitual do grupo: como mudanças ambientais moldam sistemas ecológicos em múltiplas escalas
+:::::

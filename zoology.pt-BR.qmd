@@ -1,0 +1,27 @@
+---
+title: "Zoologia"
+format: html
+website:
+  template: jolla
+---
+
+A zoologia é o estudo científico dos animais — seu comportamento, fisiologia, evolução e papéis ecológicos. Ela abrange escalas que vão desde mecanismos moleculares até a dinâmica de ecossistemas, explorando como os animais se adaptam a desafios ambientais, interagem com seus habitats e contribuem para a biodiversidade.
+
+![](research/zoology.jpeg){fig-align="center"}
+
+### Questões fundamentais que investigo
+
+-   Como répteis, anfíbios e outros táxons respondem a estressores ambientais, como extremos climáticos, fragmentação de habitat ou regimes de fogo alterados?
+
+-   Quais estratégias evolutivas (ex: tolerância térmica, plasticidade reprodutiva) permitem que as espécies persistam em paisagens em constante mudança?
+
+-   Como a ecologia animal pode fundamentar estratégias de conservação equitativas que beneficiem tanto a vida selvagem quanto as comunidades humanas?
+
+Utilizando levantamentos de campo, experimentos ecofisiológicos e análises estatísticas, minha pesquisa zoológica investiga a resiliência das espécies no Antropoceno. Taxonomicamente, sou especialista em répteis e anfíbios, grupo também conhecido como **herpetofauna**.
+
+### Por que isso é importante
+
+Os animais são indicadores vitais da saúde dos ecossistemas e propulsores de processos ecológicos. Ao estudar sua biologia e vulnerabilidades, a zoologia fornece percepções críticas para a conservação da biodiversidade, a mitigação de conflitos entre humanos e vida selvagem e a promoção de ecossistemas resilientes em um mundo em rápida transformação.
+
+\
+[Cheque minhas publicações relacionadas à zoologia aqui.](publications.qmd)

@@ -1,0 +1,104 @@
+---
+title: "CV"
+format: html
+about: 
+  template: solana
+  links: 
+    - icon: r-square
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Heitor-Campos-De-Sousa
+      target: _blank
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/heitor-campos-de-sousa/
+      target: _blank
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/bioheitorsousa.bsky.social
+      target: _blank
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/bioheitorsousa/
+      target: _blank
+    - icon: threads
+      text: Threads
+      href: https://www.threads.net/@bioheitorsousa
+      target: _blank
+    - icon: envelope-at
+      text: e-mail
+      href: mailto:heitorsousa.bio@gmail.com
+    - icon: file-text
+      text: CV em PDF
+      href: CV_HeitorCSousa_En.pdf
+      target: _blank
+  id: ppc
+page-navigation: true
+---
+
+::: {#ppc}
+# Heitor Campos de Sousa
+
+Profissional das Ciências Ambientais com ampla experiência (mais de 10 anos) em ensino, pesquisa e consultoria. Especialista em fornecer explicações detalhadas e soluções para problemas científicos complexos para estudantes e partes interessadas (*stakeholders*), tornando a informação acessível e compreensível. Experiência em tutoria online, gestão de múltiplos projetos simultâneos e cumprimento de prazos rigorosos em funções de pesquisa e consultoria, com compromisso na entrega de assistência de alta qualidade.
+
+### **Formação Acadêmica**
+
+**Doutorado em Ciências Ambientais** Universidade Federal do Tocantins (UFT) com período sanduíche na University of Oxford, Inglaterra (Reino Unido). 2019–2023
+
+**Mestrado em Ecologia** Universidade de Brasília (UnB) 2014–2016
+
+**Bacharelado em Ciências Biológicas** Universidade de Brasília (UnB) 2009–2013
+
+### **Publicações**
+
+-   **13 artigos** em periódicos científicos.
+
+-   **3 capítulos** de livros.
+
+-   **2 blogs** técnicos/divulgação. Confira a lista completa de publicações \[aqui\].
+
+### **Idiomas**
+
+-   **Português:** Nativo.
+
+-   **Inglês:** Fluente.
+
+-   **Espanhol:** Intermediário.
+
+------------------------------------------------------------------------
+
+### **Experiências Principais**
+
+#### **Professor e Pesquisador**
+
+**Universidade de Brasília (UnB) \| Brasília-DF \| 2010–2016 \| 2023–Presente** Atuei como estagiário, bolsista de iniciação científica, mestrando e, atualmente, como pesquisador de pós-doutorado. Tenho colaborado na elaboração de propostas de projetos científicos, tutoria de alunos de graduação e docência em disciplinas de biologia e ecologia.
+
+-   Inventário e monitoramento de anfíbios e répteis.
+
+-   Preparação e docência de aulas teóricas e práticas de biologia e ecologia.
+
+-   Análise e estruturação de bases de dados demográficos, climáticos e microclimáticos para estudos de mudanças ambientais.
+
+#### **Professor e Pesquisador**
+
+**Universidade Federal do Tocantins (UFT) \| Palmas-TO \| 2018–Presente** Elaboração de projetos de pesquisa em ecologia e conservação para captação de recursos e tutoria de alunos de graduação e pós-graduação. Atuei como Professor Convidado por 6 meses, lecionando para o curso de Engenharia Ambiental. Organizo frequentemente workshops para democratizar o conhecimento e ampliar a acessibilidade à ecologia, ciências ambientais e estatística.
+
+-   Preparação e docência de aulas teóricas e práticas.
+
+-   Supervisão formal de 11 alunos de graduação.
+
+-   Ensino e assistência em inventários e monitoramento animal, coleta e análise de dados, e redação científica.
+
+#### **Consultor Ambiental**
+
+**Nippon Koei LAC do Brasil \| Palmas-TO \| 2016–2023** Atuação como consultor ambiental em diversos projetos multidisciplinares, coordenação de equipes de campo e redação de propostas técnicas aprovadas.
+
+-   Coleta de dados bióticos, abióticos e sociais para diagnósticos socioambientais.
+
+-   Análises estatísticas e de geoprocessamento.
+
+-   Redação e revisão de relatórios técnicos e propostas.
+
+-   Realização de palestras e workshops.
+:::
+
+#

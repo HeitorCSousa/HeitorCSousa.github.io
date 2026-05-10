@@ -1,8 +1,16 @@
 [
   {
+    "listing": "/products.pt-BR.html",
+    "items": [
+      "/products/fire_regimes/fire_regimes.html",
+      "/products/fire_regimes/fire_regimes.pt-BR.html"
+    ]
+  },
+  {
     "listing": "/products.html",
     "items": [
-      "/products/fire_regimes/fire_regimes.html"
+      "/products/fire_regimes/fire_regimes.html",
+      "/products/fire_regimes/fire_regimes.pt-BR.html"
     ]
   }
 ]

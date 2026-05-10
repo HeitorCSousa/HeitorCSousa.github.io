@@ -1,0 +1,58 @@
+---
+title: "Dr. Heitor Campos de Sousa"
+subtitle: "Pesquisador Pós-Doc"
+description: "Website pessoal do Dr. Heitor Campos de Sousa, Cientista Ambiental e Pesquisador Pós-Doc especializado em ecologia, zoologia e conservação da biodiversidade."
+resources: references.bib CV_HeitorCSousa_En.pdf
+about: 
+  template: solana
+  image: profile.jpeg
+  image-shape: rounded
+  image-width: 15em
+  links: 
+    - icon: r-square
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Heitor-Campos-De-Sousa
+      target: _blank
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/heitor-campos-de-sousa/
+      target: _blank
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/bioheitorsousa.bsky.social
+      target: _blank
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/bioheitorsousa/
+      target: _blank
+    - icon: threads
+      text: Threads
+      href: https://www.threads.net/@bioheitorsousa
+      target: _blank
+    - icon: envelope-at
+      text: e-mail
+      href: mailto:heitorsousa.bio@gmail.com
+    - icon: file-text
+      text: CV
+      href: CV_HeitorCSousa_En.pdf
+      target: _blank
+page-navigation: false
+---
+
+#### Cientista Ambiental com ampla experiência em ensino, pesquisa e consultoria
+
+\
+\
+Eu sou o Heitor C. Sousa. Estou atualmente trabalhando como Pesquisador Pós-Doc na [Coleção Herpetológica](https://chunb.org) da [Universidade de Brasília](https://www.unb.br). Eu tenho experiência em inventários da biodiversidade e estudos ecológicos e ecofisiológicos de anfíbios e répteis. Eu tenho interesse amplo em ecologia e evolução de animais, especialmente de ecossistemas Neotropicais, como da Caatinga, do Cerrado Brasileiro e da Floresta Amazônica. Minha pesquisa foca particularmente em pirogeografia (incluindo a ecologia do fogo), biodemografia (ecologia populacional) e mudanças climáticas globais. Eu sou um ecólogo com orientação altamente quantitativa, e uso modelos estatísticos para investigar problemas aplicados relacionados à sustentabilidade e conservação da biodiversidade.
+
+\
+
+![Heitor investiga como populações de lagartos respondem a mudanças ambientais, como no clima e em regimes de queima](profile_lizard.jpeg)
+
+```{r, echo=FALSE}
+#| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
+#| warning: false
+source("carousel.R")
+carousel("gallery-carousel", 6000, 
+         yaml.load_file("carousel.yml"))
+```

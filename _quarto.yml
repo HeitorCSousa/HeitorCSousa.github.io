@@ -12,18 +12,21 @@ website:
         text: Home
       - sidebar:research
       - href: publications.qmd
-        text: "Publications"
+        text: "Publications | Publicações"
         target: _blank
       - href: curriculum.qmd
         text: "CV"
         target: _blank
       - href: products.qmd
-        text: "Products"
+        text: "Products | Produtos"
+        target: _blank
+      - href: alteroikos.qmd
+        text: "AlterOikos"
         target: _blank
 
   sidebar:
     - id: research
-      title: "Research"
+      title: "Research | Pesquisa"
       style: "docked"
       collapse-level: 2
       href: research.qmd
@@ -50,3 +53,17 @@ format:
 editor: visual
 filters:
     - openlinksinnewpage
+
+babelquarto:
+  languagelinks: navbar
+  languagecodes:
+  - name: pt-BR
+    text: "Português(BR)"
+  - name: en
+    text: "English"
+  mainlanguage: 'en'
+  languages: ['pt-BR']
+title-pt-BR: Heitor C. Sousa
+description-pt-BR: description in pt-BR
+author-pt-BR: author in pt-BR
+lang: en

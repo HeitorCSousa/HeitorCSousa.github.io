@@ -1,0 +1,33 @@
+---
+title: "Publicações"
+format: html
+website:
+  template: jolla
+bibliography: references.bib
+---
+
+Here is a list of my publications in cronological order. Click on each Citação to view the complete reference.
+
+| Citação | Tópico | Tipo | Contribuição |
+|------------------|------------------|------------------|------------------|
+| @santos2025 | Biodemografia & Mudanças climáticas | Artigo | Co-autor |
+| @acácio2025 | Biodemografia & Mudanças climáticas | Artigo | Co-autor |
+| @sousa2025 | Conservação social & Pirogeografia | Artigo | Primeiro autor |
+| @desousa2024 | Biodemografia & Pirogeografia | Artigo | Primeiro autor |
+| @RN11618 | Biogeografia & Zoologia | Capítulo de livro | Último autor |
+| @c.sousa2023 | Conservação social | Artigo | Primeiro autor |
+| @RN11617 | Conservação social | Capítulo de livro | Co-autor |
+| @simoncini2022 | Biodemografia & Mudanças climáticas | Artigo | Co-autor |
+| @gonçalveskagueiama2022 | Mudanças climáticas & Zoologia | Artigo | Co-autor |
+| @RN11619 | Conservação social | Capítulo de livro | Primeiro autor |
+| @ataídes2021 | Biodemografia & Mudanças climáticas | Artigo | Co-autor |
+| @costa2019 | Zoologia & Pirogeografia | Artigo | Co-autor |
+| @colli2019 | Zoologia | Artigo | Último autor |
+| @sousa2016 | Biodemografia & Zoologia | Artigo | Primeiro autor |
+| @sousa2015 | Biodemografia & Pirogeografia | Artigo | Primeiro autor |
+| @morais2014 | Zoologia | Artigo | Co-autor |
+
+: Artigos em ordem cronológica
+
+\
+Abaixo, você encontra as referências completas em ordem alfabética. Se você quiser acesso às publicações completas (PDF), por favor, vá ao meu perfil do [ResearchGate](https://www.researchgate.net/profile/Heitor-Campos-De-Sousa) ou me mande um e-mail ([heitorsousa.bio\@gmail.com](mailto:heitorsousa.bio@gmail.com)).
